@@ -1,0 +1,65 @@
+{
+    "nav": {
+        "about": "About us",
+        "services": "Services",
+        "cranes": "Our cranes",
+        "projects": "Projects",
+        "contact": "Contact us"
+    },
+    "footer": {
+        "contactBox": ["Name", "Last name", "Email", "Your message"],
+        "nav": ["About us", "Services", "Projects", "Contact us"],
+        "copyright": "2025  Erkin Hereket. All rights reserved."
+    },
+    "home": {
+        "learnMoreBTn": "Learn more",
+        "heroTitle": "Lifting Turkmenistan Forward",
+        "homeAboutText": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental."
+    },
+    "about": {
+        "aboutTitle": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
+        "counterCaptions": ["Cranes", "Projects", "Satisfied clients", "Years in operation"],
+        "experienceTitle": "Our Experience",
+        "experienceDesc": "Using high-capacity cranes, our company has successfully carried out operations in major construction projects. Through long-term collaboration with our clients, we have successfully implemented numerous industrial, construction, and manufacturing projects.",
+        "devPeriodTitle": "Development Period",
+        "devPeriodDesc": "Our path of growth continues through technology and innovation. By introducing new cranes, equipment, and lifting tools, we are strengthening our service areas.",
+        "missionTitle": "Our Mission",
+        "missionDesc": "Our mission is to provide safe, fast, and high-quality technical services to all clients while contributing meaningfully to the development of the sector.",
+        "advTitle": "Advantages",
+        "advDesc": "What sets our services apart are guaranteed high quality, modern equipment, experienced staff, and transparent relations with clients. Fast service, safety, and a personalized approach are our core principles.",
+        "goalsTitle": "Our goals",
+        "goalsDesc": "With clearly defined goals, our company aims to evolve into new areas. Our development strategy is based on expanding and improving service types and quality through advanced technology and international cooperation."
+    },
+    "services": [
+        {
+            "title": "Rental of Cranes with Operators",
+            "desc": "Our company offers rental services of cranes with different lifting capacities (25–300 tons) along with highly experienced operators. These services help clients save both time and resources."
+        },
+        {
+            "title": "Lifting and Placement of Heavy Structures (Loads)",
+            "desc": "We provide specialized solutions for lifting and precisely placing heavy metal structures and equipment at large construction and industrial sites. Our experience and advanced cranes fully support these services."
+        },
+        {
+            "title": "Special Services by Order",
+            "desc": "Each project has its own uniqueness and complexity. Therefore, we offer customized technical solutions tailored to the specific needs of our clients. This clearly demonstrates our contribution to completing projects on time."
+        },
+        {
+            "title": "Operational and Usage Features of Cranes",
+            "desc": "Our company provides high-quality services in construction and industrial works using cranes with different lifting capacities. Below are the specifications and usage details of various crane models."
+        }
+    ],
+    "projects": [
+        {
+            "title": "CONSTRUCTION PROJECTS",
+            "desc": "Our contributions to large construction projects carried out across different regions of Turkmenistan showcase our experience and capabilities. With the help of our cranes, we participated in these projects in a timely and high-quality manner."
+        },
+        {
+            "title": "INDUSTRIAL & MANuFACTURing PROJECTS",
+            "desc": "The extensive use of our equipment in energy, manufacturing, and other industrial facilities confirms the high standards of our company in this field."
+        },
+        {
+            "title": "PARTNERSHIP WITH ENTERPRISES",
+            "desc": "We maintain long-term partnerships with large private and state-owned enterprises. Examples include Turkey's “Rönesans Endüstri Tesisleri İnşaat Sanayi ve TicaretA.Ş.”, Turkey’s “Çalık Enerji Sanayi ve Ticaret A.Ş.”, Ukraine’s “Interbudmontazh”, and the private enterprise “Rysgally Zähmet”, among others."
+        }
+    ]
+}

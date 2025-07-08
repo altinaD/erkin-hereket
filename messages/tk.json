@@ -1,0 +1,65 @@
+{
+  "nav": {
+      "about": "Biz barada",
+      "services": "Hyzmatlar",
+      "cranes": "Kranlarymyz",
+      "projects": "Taslamalar",
+      "contact": "Habarlaşyň"
+  },
+  "footer": {
+      "contactBox": ["Ady", "Familiýasy", "E-poçta", "Habaryňyz"],
+      "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
+      "copyright": "2025  Erkin Hereket. Ähli hukuklar goralan."
+  },
+  "home": {
+    "learnMoreBTn": "Has giňişleýin",
+    "heroTitle": "Türkmenistany ýokarlyk bilen öňe sürýäris",
+    "homeAboutText": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental."
+  },
+  "about": {
+    "aboutTitle": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
+    "counterCaptions": ["Kranlar", "Taslamalar", "Kanagatlanan müşderiler", "Iş tejribesi (ýyl)"],
+    "experienceTitle": "Tejribämiz",
+    "experienceDesc": "Uly göwrümli kranlarymyz bilen esasy gurluşyk taslamalarynda üstünlikli işledik. Müşderilerimiz bilen uzak möhletli hyzmatdaşlygyň netijesinde köp sanly senagat, gurluşyk we önümçilik taslamalaryny üstünlikli durmuşa geçirdik.",
+    "devPeriodTitle": "Ösüş döwrümiz",
+    "devPeriodDesc": "Tehnologiýa we innowasiýa arkaly ösüş ýolumyz dowam edýär. Täze kranlary, enjamlar we göteriji gurallary hödürlemek bilen hyzmat ugurlarymyzy güýçlendirýäris.",
+    "missionTitle": "Maksadymyz",
+    "missionDesc": "Biziň maksadymyz ähli müşderilere howpsuz, çalt we ýokary hilli tehniki hyzmatlary hödürlemek hem-de pudagyň ösüşine uly goşant goşmakdyr.",
+    "advTitle": "Üstünliklerimiz",
+    "advDesc": "Biziň hyzmatlarymyzyň artykmaçlyklary — kepillendirilen hil, döwrebap enjamlar, tejribeli işgärler we açyk aragatnaşyk. Çalt hyzmat, howpsuzlyk we şahsylaşdyrylan çemeleşme esasy ýörelgelerimizdir.",
+    "goalsTitle": "Maksatlarymyz",
+    "goalsDesc": "Anyk kesgitlenen maksatlar bilen täze ugurlara ösmegi maksat edinýäris. Ösüş strategiýamyz — halkara hyzmatdaşlygy we öňdebaryjy tehnologiýalar arkaly hyzmatlaryň görnüşini we hilini giňeltmekdir."
+  },
+  "services": [
+    {
+      "title": "Operatorly kranlaryň kärendesi",
+      "desc": "25-den 300 tonna çenli göterijilik ukyby bolan kranlary tejribeli operatorlar bilen kärendesine hödürleýäris. Bu hyzmat müşderileriň wagtyny we serişdelerini tygşytlamaga kömek edýär."
+    },
+    {
+      "title": "Agyr gurluşyklaryň göterilmegi we ýerleşdirilmegi",
+      "desc": "Uly gurluşyk we senagat meýdançalarynda agyr metal gurluşyklary we enjamlary götermek we takyk ýerleşdirmek üçin ýöriteleşdirilen çözgütleri hödürleýäris."
+    },
+    {
+      "title": "Sargyt boýunça ýörite hyzmatlar",
+      "desc": "Her taslama özboluşly we çylşyrymly bolýar. Şonuň üçin biz müşderiniň aýratyn zerurlyklaryna laýyk ýörite tehniki çözgütleri hödürleýäris."
+    },
+    {
+      "title": "Kranlaryň işleýiş aýratynlyklary",
+      "desc": "Gurluşyk we senagat işlerinde dürli göterijilik ukyby bolan kranlar bilen ýokary hilli hyzmatlary hödürleýäris. Aşakda dürli kran modelleriniň aýratynlyklary bilen tanyşyp bilersiňiz."
+    }
+  ],
+  "projects": [
+    {
+      "title": "GURLUŞYK TASLAMALARY",
+      "desc": "Türkmenistanyň dürli künjeklerinde ýerine ýetirilen uly gurluşyk taslamalaryndaky gatnaşygymyz tejribämizi we mümkinçiliklerimizi görkezýär. Kranlarymyz bilen wagtynda we ýokary hilli hyzmat etdik."
+    },
+    {
+      "title": "SENAGAT WE ÖNÜMÇILIK TASLAMALARY",
+      "desc": "Enjamlarymyzyň energiýa, önümçilik we beýleki senagat desgalarynda giňden ulanylmagy, bu ugurda ýokary hil derejesini görkezýär."
+    },
+    {
+      "title": "KARHANALAR BILEN HYZMATDAŞLYK",
+      "desc": "Uly döwlet we hususy kärhanalar bilen uzak möhletleýin hyzmatdaşlyk edýäris. Mysal üçin, Türkiýäniň “Rönesans Endüstri Tesisleri”, “Çalık Enerji”, Ukrainanyň “Interbudmontazh” we “Rysgally Zähmet” hususy kärhanasy bilen hyzmatdaşlyk edýäris."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-3xl:1024px;
+  --breakpoint-2xl: 835px;
+  --breakpoint-xs: 590px;
+}
+
+.hero-space{
+    width: 100%;
+    padding: 10px;
+}
+.hero-content{
+    z-index: 2;
+    position: absolute;
+    bottom: 170px;
+    left: 70px;
+}
+.hero-title{
+    max-width: 794px;
+    font-family: Akzidenz-Grotesk BQ Extended;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 66px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+@media (max-width: 835px){
+    .hero-title{
+        width: 100%;
+        max-width: unset;
+    }
+}
+@media (max-width: 590px){
+    .hero-title{
+        font-size: 36px;
+    }
+}
+.space{
+    padding: 0 80px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media (max-width: 835px){
+    .space{
+        padding: 0 40px;
+    }
+}
+@media (max-width: 590px){
+    .space{
+        padding: 0 16px;
+    }
+}
