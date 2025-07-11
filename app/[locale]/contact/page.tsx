@@ -1,4 +1,4 @@
-import Header from "@/_templates/header/header"
+
 import { useTranslations } from "next-intl"
 import Contact from "@/_templates/footer/Contact"
 import FooterBottom from "@/_templates/footer/footerBottom"
@@ -18,7 +18,6 @@ export default function Page() {
                         <div className="absolute w-[150px] h-[150px] right-[0] top-[300px] bg-[#FFFFFF1A]"></div>
                         <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                     </div>
-                    <Header />
                     <div className="hero-content hero-content2">
                         <h1 className="hero-title">{nav("contact")}</h1>
                     </div>
@@ -26,7 +25,7 @@ export default function Page() {
             </div>
             <Contact />
             <div className="space ">
-                <div className="h-[40vh] mb-[80px]">
+                <div className="h-[40vh] mb-[80px] max-xs:mt-[100px]">
                     <Map />
                 </div>
             </div>

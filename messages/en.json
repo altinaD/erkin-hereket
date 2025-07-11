@@ -8,6 +8,7 @@
     },
     "footer": {
         "contactBox": ["Name", "Last name", "Email", "Your message"],
+        "contacts": ["Address", "Phone number", "E-address"],
         "nav": ["About us", "Services", "Projects", "Contact us"],
         "copyright": "2025  Erkin Hereket. All rights reserved."
     },

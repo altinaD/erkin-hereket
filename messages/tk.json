@@ -8,6 +8,7 @@
   },
   "footer": {
       "contactBox": ["Ady", "Familiýasy", "E-poçta", "Habaryňyz"],
+      "contacts": ["Salgy", "Telefon belgisi", "E-poçta"],
       "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
       "copyright": "2025  Erkin Hereket. Ähli hukuklar goralan."
   },

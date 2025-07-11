@@ -1,4 +1,3 @@
-import Header from "@/_templates/header/header"
 import { useTranslations } from "next-intl"
 import Cranes from "./Cranes"
 import Footer from "@/_templates/footer/footer"
@@ -17,7 +16,6 @@ export default function Page() {
                         <div className="absolute w-[150px] h-[150px] right-[0] top-[300px] bg-[#FFFFFF1A]"></div>
                         <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                     </div>
-                    <Header />
                     <div className="hero-content hero-content2">
                         <h1 className="hero-title">{nav("cranes")}</h1>
                     </div>

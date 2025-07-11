@@ -1,5 +1,5 @@
 'use client'
-import Header from "@/_templates/header/header"
+// import Header from "@/_templates/header/header"
 import { useTranslations } from "next-intl"
 import RedirectButton from "../../../_components/redirectBtn"
 import styles from "./style.module.css"
@@ -19,6 +19,10 @@ export default function Home(){
   const all = useTranslations("")
   const projects = all.raw("projects");
 
+    const moveBottom = () => {
+        window.scrollTo({top: document.documentElement.scrollHeight,  behavior: "smooth" });
+    }
+
   return (
     <>
         <div className="hero-space">
@@ -31,12 +35,12 @@ export default function Home(){
                     <div className="absolute w-[150px] h-[150px] right-[0] top-[300px] bg-[#FFFFFF1A]"></div>
                     <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                 </div>
-                <Header />
+                {/* <Header /> */}
                 <div className="hero-content">
                     <h1 className="hero-title">{home('heroTitle')}</h1>
                     <RedirectButton caption="Services" href="/services" />
                 </div>
-                <div className={styles['scroll']}>Scroll down</div>
+                <button onClick={moveBottom} className={styles['scroll']}>Scroll down</button>
             </div>
         </div>
         <div className="space">
@@ -66,7 +70,7 @@ export default function Home(){
                 </div>
             </div>
         </div>
-        <div className="space max-2xl:!pr-0 max-xs:!pr-[16px]" >
+        <div className="space max-2xl:!pr-0 max-xs:!pr-[16px] " >
             <div className={`pt-[150px] overflow-x-hidden ${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>3</span>

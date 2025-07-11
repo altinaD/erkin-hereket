@@ -9,6 +9,7 @@
     font-family: RidleyGroteskMedium;
     border-top-left-radius: 21px;
     border-top-right-radius: 21px;
+    cursor: pointer;
 }
 
 .home-container{
@@ -56,38 +57,3 @@
         flex-direction: column;
     }
 }
-
-/* .home-img2{
-    left: calc(100% - 88px);
-    top: calc(100% - 88px);
-    position: absolute;
-}
-.small-square{
-    position: absolute;
-    background-color: #FFFFFF;
-    width: 88px;
-    height: 88px;
-    bottom: 0;
-    left: calc(100% - 88px);
-    z-index: 3;
-}
-
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-.blank {
-    height: 100vh;
-}
-

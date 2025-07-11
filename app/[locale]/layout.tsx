@@ -1,4 +1,4 @@
-
+import Header from "@/_templates/header/header";
 import type { Metadata } from "next";
 import "./global.css";
 import { NextIntlClientProvider } from "next-intl";
@@ -39,6 +39,7 @@ export default async function RootLayout({
         ${RubikMedium.className} 
         ${RubikRegular.className} 
         `}>
+          <Header />
           {children}
       </body>
     </html> 
