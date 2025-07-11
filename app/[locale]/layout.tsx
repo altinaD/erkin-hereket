@@ -1,15 +1,19 @@
 
 import type { Metadata } from "next";
-import {Manrope} from "next/font/google"
 import "./global.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-const manrope = Manrope({
-  style: ['normal'],
-  subsets: ["latin"],
-  weight: ['300', '400', '500', '600']
-});
-
+import 
+{
+  AkzidenzGroteskBoldExtended,
+  AkzidenzGroteskMediumExtended,
+  RidleyGroteskBold,
+  RidleyGroteskMedium,
+  RidleyGroteskRegular,
+  RubikLight,
+  RubikMedium,
+  RubikRegular
+} from "@/lib/fonts"
 
 export const metadata: Metadata = {
   title: "Erkin hereket",
@@ -25,10 +29,19 @@ export default async function RootLayout({
   return (
     <NextIntlClientProvider messages={messages}>
     <html lang="en">
-      <body className={manrope.className} >
+      <body className={`
+        ${AkzidenzGroteskBoldExtended.className} 
+        ${AkzidenzGroteskMediumExtended.className} 
+        ${RidleyGroteskBold.className} 
+        ${RidleyGroteskMedium.className} 
+        ${RidleyGroteskRegular.className} 
+        ${RubikLight.className} 
+        ${RubikMedium.className} 
+        ${RubikRegular.className} 
+        `}>
           {children}
       </body>
-    </html>
+    </html> 
     </NextIntlClientProvider>
   );
 }

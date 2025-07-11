@@ -19,7 +19,7 @@ export default function Header() {
     
     return (
         <header className="flex flex-row justify-between px-[70px] py-[20px] z-3 relative max-2xl:hidden">
-            <div>
+            <Link href="/">
                 <svg width="164" height="50" viewBox="0 0 164 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_140_18458)">
                     <path d="M38.0825 18.9785V3.86475H54.0772L54.0781 7.48951H43.5143L43.5134 9.73095H53.2807V13.1332H43.5134L43.4968 15.3707H54.2515L54.2681 18.9785L38.0825 18.9785Z" fill="white" />
@@ -59,7 +59,7 @@ export default function Header() {
                     </clipPath>
                 </defs>
                 </svg>
-            </div>
+            </Link>
             <ul className={`flex  items-center flex-row gap-[40px]`}>
                 {navKeys.map(key => {
                     const { path } = navConfig[key]

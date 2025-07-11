@@ -26,9 +26,9 @@
         "missionTitle": "Our Mission",
         "missionDesc": "Our mission is to provide safe, fast, and high-quality technical services to all clients while contributing meaningfully to the development of the sector.",
         "advTitle": "Advantages",
-        "advDesc": "What sets our services apart are guaranteed high quality, modern equipment, experienced staff, and transparent relations with clients. Fast service, safety, and a personalized approach are our core principles.",
+        "advDesc": "<grey>What sets our services apart are guaranteed</grey> <red> high quality, modern equipment, experienced staff</red>, <grey> and </grey> <red> transparent relations </red> <grey>with clients</grey>. Fast service, safety, <grey>and a</grey> personalized approach <grey>are our core principles.</grey>",
         "goalsTitle": "Our goals",
-        "goalsDesc": "With clearly defined goals, our company aims to evolve into new areas. Our development strategy is based on expanding and improving service types and quality through advanced technology and international cooperation."
+        "goalsDesc": "<grey>With clearly defined goals, our company aims to evolve into new areas</grey>. <red>Our development strategy is based on expanding and improving service types and quality</red> through advanced technology and international cooperation."
     },
     "services": [
         {
@@ -48,18 +48,92 @@
             "desc": "Our company provides high-quality services in construction and industrial works using cranes with different lifting capacities. Below are the specifications and usage details of various crane models."
         }
     ],
+    "cranes":[
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        },
+        {
+            "title": "XCMG QY25K-1",
+            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "boomLen": ["Boom length:", "39.5 m"],
+            "jibExt": ["Jib extension length:", "8.3 m"]
+        }
+    ],
     "projects": [
         {
             "title": "CONSTRUCTION PROJECTS",
             "desc": "Our contributions to large construction projects carried out across different regions of Turkmenistan showcase our experience and capabilities. With the help of our cranes, we participated in these projects in a timely and high-quality manner."
         },
         {
-            "title": "INDUSTRIAL & MANuFACTURing PROJECTS",
+            "title": "INDUSTRIAL & MANUFACTURING PROJECTS",
             "desc": "The extensive use of our equipment in energy, manufacturing, and other industrial facilities confirms the high standards of our company in this field."
         },
         {
             "title": "PARTNERSHIP WITH ENTERPRISES",
-            "desc": "We maintain long-term partnerships with large private and state-owned enterprises. Examples include Turkey's “Rönesans Endüstri Tesisleri İnşaat Sanayi ve TicaretA.Ş.”, Turkey’s “Çalık Enerji Sanayi ve Ticaret A.Ş.”, Ukraine’s “Interbudmontazh”, and the private enterprise “Rysgally Zähmet”, among others."
+            "desc": "We maintain long-term partnerships with large private and state-owned enterprises. Examples include Turkey's “Rönesans Endüstri Tesisleri İnşaat Sanayi ve TicaretA.Ş.”, Turkey’s “Çalık Enerji Sanayi ve Ticaret A.Ş.”, Ukraine’s “Interbudmontazh”, and the private enterprise “Rysgally Zähmet”, among others."
         }
     ]
 }

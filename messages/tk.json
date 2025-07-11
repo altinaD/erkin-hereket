@@ -26,9 +26,9 @@
     "missionTitle": "Maksadymyz",
     "missionDesc": "Biziň maksadymyz ähli müşderilere howpsuz, çalt we ýokary hilli tehniki hyzmatlary hödürlemek hem-de pudagyň ösüşine uly goşant goşmakdyr.",
     "advTitle": "Üstünliklerimiz",
-    "advDesc": "Biziň hyzmatlarymyzyň artykmaçlyklary — kepillendirilen hil, döwrebap enjamlar, tejribeli işgärler we açyk aragatnaşyk. Çalt hyzmat, howpsuzlyk we şahsylaşdyrylan çemeleşme esasy ýörelgelerimizdir.",
+    "advDesc": "<grey>Biziň hyzmatlarymyzyň artykmaçlyklary</grey> — <red>kepillendirilen hil, döwrebap enjamlar, tejribeli işgärler we açyk aragatnaşyk</red>. Çalt hyzmat, howpsuzlyk we şahsylaşdyrylan çemeleşme <grey>esasy ýörelgelerimizdir.</grey>",
     "goalsTitle": "Maksatlarymyz",
-    "goalsDesc": "Anyk kesgitlenen maksatlar bilen täze ugurlara ösmegi maksat edinýäris. Ösüş strategiýamyz — halkara hyzmatdaşlygy we öňdebaryjy tehnologiýalar arkaly hyzmatlaryň görnüşini we hilini giňeltmekdir."
+    "goalsDesc": "<grey>Anyk kesgitlenen maksatlar bilen täze ugurlara ösmegi maksat edinýäris</grey>. <red>Ösüş strategiýamyz — halkara hyzmatdaşlygy we öňdebaryjy tehnologiýalar</red> arkaly hyzmatlaryň görnüşini we hilini giňeltmekdir."
   },
   "services": [
     {
@@ -47,6 +47,80 @@
       "title": "Kranlaryň işleýiş aýratynlyklary",
       "desc": "Gurluşyk we senagat işlerinde dürli göterijilik ukyby bolan kranlar bilen ýokary hilli hyzmatlary hödürleýäris. Aşakda dürli kran modelleriniň aýratynlyklary bilen tanyşyp bilersiňiz."
     }
+  ],
+  "cranes":[
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      },
+      {
+        "title": "XCMG QY25K-1",
+        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Boom uzynlygy:", "39.5 m"],
+        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+      }
   ],
   "projects": [
     {

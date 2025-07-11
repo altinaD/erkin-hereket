@@ -2,26 +2,20 @@ import RedirectButton from "@/_components/redirectBtn"
 import styles from "./styles.module.css"
 import { useTranslations } from "next-intl"
 
-export default function FooterTop(){
-    const t = useTranslations('nav')
+export default function Contact(){
     const home = useTranslations("home")
     const footer = useTranslations("footer")
     const contact:string[] = footer.raw("contactBox") as string[];
     return (
-        <div className="w-[100%]" style={{background: 'linear-gradient(180deg, #D44217 0%, #6E220C 100%)'}}>
+        <div className="w-[100%]" >
             <div className="space">
-                <div className={styles['home-title']}>
-                    <span className={styles['home-num']}>4</span>
-                    <span className="ml-[20px]">{t('about')}</span>
-                </div>
-
-                <div className={styles['footer-top-content']}>
+                <div className={`${styles['black']} ${styles['footer-top-content']}`}>
                     <div>
-                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
+                        <h1 className="text-[46px] text-[#252525] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
-                            <div className={styles['address-box']}>
+                            <div className={` ${styles['address-box']}`}>
                                 <span className="font-[AkzidenzGroteskBoldExtended]">Address</span>
-                                    <span className="font-[RidleyGroteskRegular]" >G. Kulyýew (2127) “Begenchli” Floor 3</span>
+                                <span className="font-[RidleyGroteskRegular]" >G. Kulyýew (2127) “Begenchli” Floor 3</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
@@ -30,7 +24,7 @@ export default function FooterTop(){
                                 </div>
                                 <div className={styles['box']}>
                                     <span className="font-[AkzidenzGroteskBoldExtended]">Address:</span>
-                                        <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
+                                    <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -47,21 +41,21 @@ export default function FooterTop(){
                     <form className={styles['form']}>
                         <div className="w-[100%] flex flex-row gap-[20px]">
                             <div className="w-[50%] nowrap mb-[20px]">
-                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#FFFFFF] text-[14px] font-[700]">{contact[0]}</label>
-                                <input placeholder="Jon" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]`} type="text" />
+                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[0]}</label>
+                                <input placeholder="Jon" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                             <div className="w-[50%] nowrap mb-[20px]">
-                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#FFFFFF] text-[14px] font-[700]">{contact[1]}</label>
-                                <input placeholder="Doe" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]`} type="text" />
+                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[1]}</label>
+                                <input placeholder="Doe" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                         </div>
                         <div className="flex flex-col w-[100%] mb-[20px]">
-                            <label className="font-[RidleyGroteskBold] mb-[5px] text-[#FFFFFF] text-[14px] font-[700]">{contact[2]}</label>
-                            <input placeholder="example@mail.com" className=" font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]" type="text" />
+                            <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[2]}</label>
+                            <input placeholder="example@mail.com" className=" font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" type="text" />
                         </div>
                         <div className="flex flex-col w-[100%]">
-                             <label className="font-[RidleyGroteskBold] mb-[5px] text-[#FFFFFF] text-[14px] font-[700]">{contact[3]}</label>
-                            <textarea placeholder="Your message" className=" font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]" name="" id=""></textarea>
+                             <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[3]}</label>
+                            <textarea placeholder="Your message" className=" font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" name="" id=""></textarea>
                         </div>
                         <div className="flex justify-between items-baseline mb-[40px] max-xs:flex-col max-xs:mb-[60px]">
                             <div className={`${styles['socials2']}`}>
@@ -72,7 +66,7 @@ export default function FooterTop(){
                                     <path d="M16.0725 15.1533L18.9475 16.5883C18.8112 17.2693 18.4429 17.8818 17.9054 18.3216C17.3679 18.7613 16.6945 19.0009 16 18.9995C13.6139 18.9969 11.3262 18.0478 9.63896 16.3606C7.95171 14.6733 7.00265 12.3857 7 9.99955C6.99981 9.30595 7.23995 8.63371 7.67958 8.09723C8.1192 7.56075 8.73114 7.19317 9.41125 7.05705L10.8462 9.93205L9.625 11.7496C9.53374 11.8864 9.47767 12.0437 9.46175 12.2075C9.44583 12.3712 9.47056 12.5364 9.53375 12.6883C10.2492 14.3888 11.602 15.7416 13.3025 16.4571C13.4549 16.523 13.6213 16.5501 13.7867 16.5357C13.9521 16.5213 14.1113 16.4659 14.25 16.3745L16.0725 15.1533ZM26 12.9996C26.0005 15.244 25.4199 17.4503 24.3147 19.4037C23.2095 21.3572 21.6174 22.9912 19.6934 24.1468C17.7693 25.3024 15.5788 25.9402 13.3352 25.9981C11.0915 26.0559 8.87107 25.5319 6.89 24.4771L2.63375 25.8958C2.28136 26.0133 1.9032 26.0304 1.54166 25.9451C1.18012 25.8597 0.849484 25.6754 0.586814 25.4127C0.324144 25.1501 0.139818 24.8194 0.0544969 24.4579C-0.0308244 24.0964 -0.0137696 23.7182 0.10375 23.3658L1.5225 19.1096C0.595185 17.3661 0.0772463 15.4343 0.00799667 13.4608C-0.061253 11.4872 0.320007 9.52389 1.12284 7.71972C1.92567 5.91555 3.12897 4.31798 4.6414 3.04829C6.15383 1.7786 7.93564 0.870147 9.85158 0.391894C11.7675 -0.0863578 13.7672 -0.121842 15.699 0.288136C17.6307 0.698114 19.4436 1.54278 21.0001 2.75801C22.5566 3.97325 23.8158 5.52712 24.6822 7.30167C25.5485 9.07622 25.9992 11.0248 26 12.9996ZM21 15.9996C21.0001 15.8138 20.9485 15.6316 20.8509 15.4735C20.7533 15.3155 20.6136 15.1877 20.4475 15.1046L16.4475 13.1046C16.29 13.0261 16.1147 12.9906 15.9391 13.0015C15.7635 13.0125 15.594 13.0696 15.4475 13.1671L13.6112 14.3921C12.7683 13.9287 12.0746 13.235 11.6112 12.3921L12.8363 10.5558C12.9337 10.4093 12.9908 10.2398 13.0018 10.0642C13.0127 9.88862 12.9772 9.71325 12.8988 9.5558L10.8988 5.5558C10.8159 5.38839 10.6877 5.24755 10.5289 5.14923C10.37 5.05092 10.1868 4.99907 10 4.99955C8.67392 4.99955 7.40215 5.52633 6.46447 6.46402C5.52678 7.4017 5 8.67347 5 9.99955C5.00331 12.9159 6.1633 15.7119 8.22548 17.7741C10.2877 19.8363 13.0836 20.9962 16 20.9995C16.6566 20.9995 17.3068 20.8702 17.9134 20.6189C18.52 20.3677 19.0712 19.9994 19.5355 19.5351C19.9998 19.0708 20.3681 18.5196 20.6194 17.913C20.8707 17.3063 21 16.6562 21 15.9996Z" fill="white"/>
                                 </svg>
                             </div>
-                            <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-xs:mx-auto">
+                            <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-2xl:absolute max-2xl:left-[50%] max-2xl:translate-x-[-50%]" >
                                 <RedirectButton caption="Submit" href="/contact" />
                             </div>
                         </div>

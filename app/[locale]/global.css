@@ -16,9 +16,25 @@
     bottom: 170px;
     left: 70px;
 }
+.hero-content2{
+    left: 70px; 
+    bottom: 60px;
+}
+@media (max-width: 835px){
+    .hero-content{
+        bottom: 60px;
+        left: 30px;
+    }
+}
+@media (max-width: 835px){
+    .hero-content{
+        bottom: 40px;
+        left: 10px;
+    }
+}
 .hero-title{
     max-width: 794px;
-    font-family: Akzidenz-Grotesk BQ Extended;
+    font-family: AkzidenzGroteskBoldExtended;
     font-weight: 700;
     font-style: Bold;
     font-size: 66px;
@@ -31,11 +47,12 @@
     .hero-title{
         width: 100%;
         max-width: unset;
+        font-size: 50px;
     }
 }
 @media (max-width: 590px){
     .hero-title{
-        font-size: 36px;
+        font-size: 30px;
     }
 }
 .space{
@@ -52,5 +69,48 @@
 @media (max-width: 590px){
     .space{
         padding: 0 16px;
+    }
+}
+
+
+@media(max-width: 835px){
+    .crane-item{
+        flex: 0 0 60%;
+    }
+}
+
+.home-text{
+    background: -webkit-linear-gradient(#D44217, #252525);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: RidleyGroteskBold;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+@media(max-width: 590px){
+    .home-text{
+        font-size: 18px;
+    }
+}
+
+
+.change-order:nth-of-type(2n) .order-text{
+    order: 2;
+}
+
+.change-order:nth-of-type(2n) .order-text{
+    order: 1;
+}
+@media(max-width: 835px){
+    .change-order .order-text{
+        order: 2 !important;
+    }
+}
+@media(max-width: 835px){
+    .change-order .order-img{
+        order: 1 !important;
     }
 }
