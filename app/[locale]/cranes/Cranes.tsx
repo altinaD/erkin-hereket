@@ -20,7 +20,7 @@ export default function Cranes(){
                     <div className="relative" style={{ background: 'linear-gradient(to bottom, #fff 50%, #EEEEEE 50%)' }}>
                         <Image className="p-[10px] pb-0 relative z-2 max-2xl:w-[100%]" width={393} height={280} alt="cranes" src={`/images/cranes/${ndx+1}.jpg`} />
                     </div>
-                    <div className="relative" style={{ background: 'linear-gradient(180deg, #F1F1F1 0%, #EEEEEE 100%)' }}>
+                    <div className="relative h-[100%]" style={{ background: 'linear-gradient(180deg, #F1F1F1 0%, #EEEEEE 100%)' }}>
                         <div className="px-[20px] py-[27px] w-[100%]">
                             <h1 className="text-[#D44217] text-[20px] font-[AkzidenzGroteskMediumExtended] text-center mb-[20px] ">{crane.title}</h1>
                             <div className="py-[10px] flex flex-row justify-between border-[#252525] border-b-[0.5px] w-[100%]"> 
