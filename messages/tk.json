@@ -56,75 +56,51 @@
   "cranes":[
       {
         "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "25 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "39.5 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.3 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "FAUN RTF-30",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "30 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "28 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "KATO KA400E",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "40 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "42.2 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "9.2 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "XCMG QY50KA",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "50 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "42.7 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.3 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "FAUN ATF60-4",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "60 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "40.2 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "16 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "LIEBHERR LTM1070/1",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "70 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "42 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "18 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "LIEBHERR LTM1100-4.2",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "100 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "60 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "19 m"]
       },
       {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
-      },
-      {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
-      },
-      {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
-      },
-      {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
-      },
-      {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary göterijilik ukyby:", "25 tonna"],
-        "boomLen": ["Boom uzynlygy:", "39.5 m"],
-        "jibExt": ["Jib giňeltmegiň uzynlygy:", "8.3 m"]
+        "title": "LIEBHERR LTM1300/1",
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "300 tonna"],
+        "boomLen": ["Okunyň uzynlygy:", "60 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "42 m"]
       }
   ],
   "projects": [

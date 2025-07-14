@@ -18,7 +18,7 @@ export default function Cranes(){
              {(cranesData as craneType[]).map((crane: craneType, ndx: number) => (
                 <div className="relative crane-item" key={ndx} >
                     <div className="relative" style={{ background: 'linear-gradient(to bottom, #fff 50%, #EEEEEE 50%)' }}>
-                        <Image className="p-[10px] pb-0 relative z-2 max-2xl:w-[100%]" width={393} height={280} alt="cranes" src="/images/cranes/1.jpg" />
+                        <Image className="p-[10px] pb-0 relative z-2 max-2xl:w-[100%]" width={393} height={280} alt="cranes" src={`/images/cranes/${ndx+1}.jpg`} />
                     </div>
                     <div className="relative" style={{ background: 'linear-gradient(180deg, #F1F1F1 0%, #EEEEEE 100%)' }}>
                         <div className="px-[20px] py-[27px] w-[100%]">
