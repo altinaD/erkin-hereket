@@ -7,6 +7,7 @@ import Footer from "@/_templates/footer/footer"
 import Image from "next/image"
 import LearnMore from "./LearnMore"
 import Cranes from "@/_components/Cranes"
+import Services from "./Services"
 
 type projectType = {
     "title": string,
@@ -68,6 +69,7 @@ export default function Home(){
                     <span className={styles['home-num']}>2</span>
                     <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('services')}</span>
                 </div>
+                <Services />
             </div>
         </div>
         <div className="space max-2xl:!pr-0 max-xs:!pr-[16px] " >

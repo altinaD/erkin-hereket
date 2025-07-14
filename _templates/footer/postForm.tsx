@@ -44,7 +44,6 @@ export default function PostForm({name, lastName, email, message}: postType) {
                     </svg>
                 </div>
                 <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-xs:mx-auto">
-                    {/* <RedirectButton onClick={submitForm} caption="Submit" href="/" /> */}
                     <button onClick={submitForm} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[20px] px-[30px]">
                         <span className="text-[16px] font-[700] font-[AkzidenzGroteskBoldExtended]">Submit</span>
                         <div className="bg-[#FFFFFF] rounded-[50%] ml-[20px] p-[10px]">

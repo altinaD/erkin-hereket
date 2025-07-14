@@ -34,7 +34,7 @@ export default function Header() {
     return (
         <header className="fixed w-[100%] z-4">
             <div className={`transition-bg duration-300 ease-in-out flex flex-row justify-between px-[80px] py-[20px] max-2xl:px-[40px] max-xs:px-[16px] max z-3 relative max-2xl:!bg-white ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
-                <Link href="/">
+                <Link href="/home">
                     <svg width="164" height="50" viewBox="0 0 164 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_140_18458)">
                             <path className={`max-2xl:!fill-[#D44217] ${isScrolled ? 'transition-fill duration-300 fill-[#D44217]' : 'fill-[#fff]'}`} d="M38.0825 18.9785V3.86475H54.0772L54.0781 7.48951H43.5143L43.5134 9.73095H53.2807V13.1332H43.5134L43.4968 15.3707H54.2515L54.2681 18.9785L38.0825 18.9785Z" />
@@ -91,7 +91,7 @@ export default function Header() {
                     })}
                 </ul>
 
-                <div className="flex flex-row gap-[20px]">
+                <div className="flex flex-row gap-[20px] ">
                     <LanguageSwitcher isScrolled={isScrolled} />
                     <div className={`${styles['hamburger-icon']} ${isOpen ? styles.fix : ''}`} onClick={() => setIsOpen(!isOpen)} >
                         <div className={`${styles['icon-1']} ${isOpen ? styles.a : ''}`} ></div>
@@ -105,7 +105,7 @@ export default function Header() {
                     <ul className={`z-11 flex items-center flex-row gap-[40px] w-fit  ${styles['mobile-links']}`}>
                         <li  onClick={() => setIsOpen(false)}>
                             <Link
-                                href='/'
+                                href='/home'
                                 className={`text-[#6C757D] text-[30px] text-left font-[400]`}
                             >Home</Link>
                         </li>

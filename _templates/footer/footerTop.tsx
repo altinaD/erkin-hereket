@@ -1,3 +1,5 @@
+'use client'
+
 import PostForm from "./postForm"
 import styles from "./styles.module.css"
 import { useTranslations } from "next-intl"

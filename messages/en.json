@@ -34,19 +34,23 @@
     "services": [
         {
             "title": "Rental of Cranes with Operators",
-            "desc": "Our company offers rental services of cranes with different lifting capacities (25–300 tons) along with highly experienced operators. These services help clients save both time and resources."
+            "desc": "Our company offers rental services of cranes with different lifting capacities (25–300 tons) along with highly experienced operators. These services help clients save both time and resources.",
+            "expandedHeight": 300
         },
         {
             "title": "Lifting and Placement of Heavy Structures (Loads)",
-            "desc": "We provide specialized solutions for lifting and precisely placing heavy metal structures and equipment at large construction and industrial sites. Our experience and advanced cranes fully support these services."
+            "desc": "We provide specialized solutions for lifting and precisely placing heavy metal structures and equipment at large construction and industrial sites. Our experience and advanced cranes fully support these services.",
+            "expandedHeight": 300
         },
         {
             "title": "Special Services by Order",
-            "desc": "Each project has its own uniqueness and complexity. Therefore, we offer customized technical solutions tailored to the specific needs of our clients. This clearly demonstrates our contribution to completing projects on time."
+            "desc": "Each project has its own uniqueness and complexity. Therefore, we offer customized technical solutions tailored to the specific needs of our clients. This clearly demonstrates our contribution to completing projects on time.",
+            "expandedHeight": 300
         },
         {
             "title": "Operational and Usage Features of Cranes",
-            "desc": "Our company provides high-quality services in construction and industrial works using cranes with different lifting capacities. Below are the specifications and usage details of various crane models."
+            "desc": "Our company provides high-quality services in construction and industrial works using cranes with different lifting capacities. Below are the specifications and usage details of various crane models.",
+            "expandedHeight": 300
         }
     ],
     "cranes":[

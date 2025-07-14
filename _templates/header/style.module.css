@@ -7,6 +7,9 @@
     position: fixed;
     top: 20px;
     right: 40px;
+    @media (max-width: 835px) {
+        right: 16px;
+    }
 }
 
 
