@@ -3,16 +3,15 @@ import type { Metadata } from "next";
 import "./global.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import 
-{
-  AkzidenzGroteskBoldExtended,
-  AkzidenzGroteskMediumExtended,
-  RidleyGroteskBold,
-  RidleyGroteskMedium,
-  RidleyGroteskRegular,
-  RubikLight,
-  RubikMedium,
-  RubikRegular
+import {
+AkzidenzGroteskBoldExtended,
+AkzidenzGroteskMediumExtended,
+RidleyGroteskBold,
+RidleyGroteskMedium,
+RidleyGroteskRegular,
+RubikLight,
+RubikMedium,
+RubikRegular
 } from "@/lib/fonts"
 
 export const metadata: Metadata = {
@@ -22,13 +21,14 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  params: { locale }
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode,
+  params: { locale: string };
 }>) {
-  const messages = await getMessages()
+  const messages = await getMessages({ locale })
   return (
-    <NextIntlClientProvider messages={messages}>
-    <html lang="en">
+    <html lang={locale}>
       <body className={`
         ${AkzidenzGroteskBoldExtended.className} 
         ${AkzidenzGroteskMediumExtended.className} 
@@ -39,10 +39,11 @@ export default async function RootLayout({
         ${RubikMedium.className} 
         ${RubikRegular.className} 
         `}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
+        </NextIntlClientProvider>
       </body>
-    </html> 
-    </NextIntlClientProvider>
+    </html>
   );
 }

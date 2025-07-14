@@ -1,5 +1,4 @@
 'use client'
-// import Header from "@/_templates/header/header"
 import { useTranslations } from "next-intl"
 import RedirectButton from "../../../_components/redirectBtn"
 import styles from "./style.module.css"
@@ -36,7 +35,6 @@ export default function Home(){
                     <div className="absolute w-[150px] h-[150px] right-[0] top-[300px] bg-[#FFFFFF1A]"></div>
                     <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                 </div>
-                {/* <Header /> */}
                 <div className="hero-content">
                     <h1 className="hero-title">{home('heroTitle')}</h1>
                     <RedirectButton caption="Services" href="/services" />

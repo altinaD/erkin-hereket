@@ -1,16 +1,32 @@
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server'
+
+const PUBLIC_FILE = /\.(.*)$/
+const SUPPORTED_LOCALES = ['en', 'ru', 'tk']
 
 export function middleware(request: NextRequest) {
-  const acceptLanguage = request.headers.get("accept-language") || "en";
-  const preferredLocale = acceptLanguage.split(",")[0].split("-")[0];
+  const pathname = request.nextUrl.pathname
 
-  const supportedLocales = ["en", "ru", "tm"];
-  const locale = supportedLocales.includes(preferredLocale) ? preferredLocale : "en";
-
-  if (request.nextUrl.pathname === "/") {
-    return NextResponse.redirect(new URL(`/${locale}/home`, request.url));
+  if (
+    PUBLIC_FILE.test(pathname) ||
+    pathname.startsWith('/api') ||
+    SUPPORTED_LOCALES.some(locale => pathname.startsWith(`/${locale}`))
+  ) {
+    return NextResponse.next()
   }
 
-  return NextResponse.next();
+  const acceptLanguage = request.headers.get('accept-language') || 'en'
+  const preferredLocale = acceptLanguage.split(',')[0].split('-')[0]
+
+  const locale = SUPPORTED_LOCALES.includes(preferredLocale)
+    ? preferredLocale
+    : 'en'
+
+  const url = request.nextUrl.clone()
+  url.pathname = `/${locale}${pathname}`
+
+  return NextResponse.redirect(url)
+}
+
+export const config = {
+  matcher: ['/((?!_next|favicon.ico|images|fonts|.*\\..*).*)'],
 }
