@@ -1,3 +1,4 @@
+'use client'
 import { useTranslations } from "next-intl"
 import Cranes from "./Cranes"
 import Footer from "@/_templates/footer/footer"

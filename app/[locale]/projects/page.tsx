@@ -1,16 +1,19 @@
+'use client'
 import Footer from "@/_templates/footer/footer"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
 
 type projectType = {
-    "title": string,
-    "desc": string
+    title: string,
+    desc: string
 }
 
 export default function Page() {
     const nav = useTranslations("nav")
     const all = useTranslations("")
     const projects = all.raw("projects")
+    const locale = useLocale()
+    console.log(locale)
     return (
         <div>
             <div className="hero-space">

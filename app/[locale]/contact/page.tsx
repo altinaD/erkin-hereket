@@ -1,4 +1,4 @@
-
+'use client'
 import { useTranslations } from "next-intl"
 import Contact from "@/_templates/footer/Contact"
 import FooterBottom from "@/_templates/footer/footerBottom"
