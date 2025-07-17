@@ -19,23 +19,22 @@ export default function FooterTop(){
                     <span className={styles['home-num']}>4</span>
                     <span className="ml-[20px]">{t('about')}</span>
                 </div>
-
                 <div className={styles['footer-top-content']}>
                     <div>
                         <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
                             <div className={styles['address-box']}>
                                 <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[0]}:</span>
-                                    <span className="font-[RidleyGroteskRegular]" >G. Kulyýew (2127) “Begenchli” Floor 3</span>
+                                <span className="font-[RidleyGroteskRegular]" >G. Kulyýew (2127) “Begenchli” Floor 3</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
                                     <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[1]}:</span>
-                                        <span className="font-[RidleyGroteskRegular]" >+993 64 64 66 79</span>
+                                    <span className="font-[RidleyGroteskRegular]" >+993 64 64 66 79</span>
                                 </div>
                                 <div className={styles['box']}>
                                     <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[2]}:</span>
-                                        <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
+                                    <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
                                 </div>
                             </div>
                         </div>

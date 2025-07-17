@@ -125,7 +125,8 @@
     }
     .indexing {
         font-size: 30px;
-        font-weight: 400;
+        font-family: RidleyGroteskBold;
+        font-weight: bold;
         font-style: italic;
         color: #D44217;
         @media (max-width: 590px) {
@@ -188,10 +189,10 @@
     }
 
     &:before {
-        content: url('/images/arrow-up-right.svg');
+        content: url('/images/ArrowUpRight.svg');
         width: 30px;
         height: 30px;
-        color: #111111bc;
+        color: #D44217;
         position: absolute;
         top: 50%;
         left: 50%;
