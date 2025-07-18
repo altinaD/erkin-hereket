@@ -3,8 +3,12 @@
 import PostForm from "./postForm"
 import styles from "./styles.module.css"
 import { useTranslations } from "next-intl"
+import { usePathname } from "@/i18n/navigation"
 
 export default function FooterTop(){
+    const pathname = usePathname()
+    const isHomePage = pathname.endsWith('/home') || pathname === '/home';
+
     const t = useTranslations('nav')
     const home = useTranslations("home")
     const footer = useTranslations("footer")
@@ -15,10 +19,12 @@ export default function FooterTop(){
     return (
         <div className="w-[100%]" style={{background: 'linear-gradient(180deg, #D44217 0%, #6E220C 100%)'}}>
             <div className="space">
-                <div className={styles['home-title']}>
-                    <span className={styles['home-num']}>4</span>
-                    <span className="ml-[20px]">{t('about')}</span>
-                </div>
+                {isHomePage && (
+                    <div className={styles['home-title']}>
+                        <span className={styles['home-num']}>4</span>
+                        <span className="ml-[20px]">{t('about')}</span>
+                    </div>
+                )}
                 <div className={styles['footer-top-content']}>
                     <div>
                         <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
