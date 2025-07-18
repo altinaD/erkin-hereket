@@ -61,7 +61,7 @@ export default function Home(){
                     <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('about')}</span>
                 </div>
                 <div className={styles["home-content"]}>
-                    <div className="w-[115%] relative h-fit max-2xl:order-3 max-2xl:mt-[60px] max-xs:w-[120%] left-[50%] translate-x-[-50%]">
+                    <div className="w-[100%] relative h-fit max-2xl:order-3 max-2xl:mt-[60px] max-xs:w-[120%] left-[50%] translate-x-[-50%]">
                         <Image className="max-2xl:mx-auto" width={522} height={604} alt="cap" src="/images/home/Group1.png"></Image>
                     </div>
                     <span></span>
