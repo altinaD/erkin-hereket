@@ -96,6 +96,9 @@
     display: none;
     flex-direction: row;
 }
+.socials{
+    display: flex;
+}
 @media (max-width: 1024px){
     .socials, .socials2{
         display: flex;

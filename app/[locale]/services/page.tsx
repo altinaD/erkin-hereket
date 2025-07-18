@@ -18,7 +18,9 @@ export default function Page() {
                         <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                     </div>
                     <div className="hero-content hero-content2">
-                        <h1 className="hero-title">{nav("services")}</h1>
+                        <div className="space">
+                            <h1 className="hero-title">{nav("services")}</h1>
+                        </div>
                     </div>
                 </div>
             </div>

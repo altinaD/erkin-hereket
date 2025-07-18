@@ -7,7 +7,7 @@ type btnType = {
 
 export default function RedirectButton({caption, href}: btnType){
     return (
-        <Link href={href} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[20px] px-[30px]">
+        <Link href={href} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[8px] pl-[30px] pr-[8px]">
             <span className="text-[16px] font-[700] font-[AkzidenzGroteskBoldExtended]">{caption}</span>
             <div className="bg-[#FFFFFF] rounded-[50%] ml-[20px] p-[10px]">
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

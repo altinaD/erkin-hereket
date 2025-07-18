@@ -4,6 +4,7 @@ import RedirectButton from "../../../_components/redirectBtn"
 import styles from "./style.module.css"
 import Footer from "@/_templates/footer/footer"
 import Image from "next/image"
+import Link from "next/link"
 import LearnMore from "./LearnMore"
 import Cranes from "@/_components/Cranes"
 import Services from "./Services"
@@ -25,9 +26,9 @@ export default function Home(){
 
   return (
     <>
-        <div className="hero-space">
-            <div className="w-[100%] h-[100vh] bg-center bg-cover relative" style={{backgroundImage: `url(/images/home/1.jpg)`}}>
-                <div className="absolute top-0 left-0 w-[100%] h-[100vh]" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)'}}>
+        <div className="hero-space w-[100%] h-[100vh]">
+            <div className="w-[100%] h-[100%] bg-center bg-cover relative" style={{backgroundImage: `url(/images/home/1.jpg)`}}>
+                <div className="absolute top-0 left-0 w-[100%] h-[100%]" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)'}}>
                     <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217]"></div>
                     <div className="absolute w-[150px] h-[150px] right-0 top-0 bg-[#D4421733]"></div>
                     <div className="absolute w-[150px] h-[150px] right-0 top-[150px]" style={{background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)'}}></div>
@@ -36,13 +37,23 @@ export default function Home(){
                     <div className="absolute w-[150px] h-[150px] right-[300px] top-[0] border-[1px] border-t-transparent border-r-transparent border-l-[#FFFFFF1A] border-b-[#FFFFFF1A]"></div>
                 </div>
                 <div className="hero-content">
-                    <h1 className="hero-title">{home('heroTitle')}</h1>
-                    <RedirectButton caption="Services" href="/services" />
+                    <div className="space">
+                        <h1 className="hero-title">{home('heroTitle')}</h1>
+                        <RedirectButton caption="Services" href="/services" />
+                    </div>
                 </div>
-                <button onClick={moveBottom} className={styles['scroll']}>Scroll down</button>
+                <div  className={styles['scroll']}>
+                    <svg className="absolute left-[-18px] bottom-[4px]" width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 16H18L19 0C16 8.5 9.5 14.5 0 16Z" fill="white"/>
+                    </svg>
+                    <button onClick={moveBottom}>{home('srollDown')}</button>
+                    <svg className="absolute right-[-18px] bottom-[4px]" width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 16H1L0 0C2.99997 8.5 9.5 14.5 19 16Z" fill="white"/>
+                    </svg>
+                </div>
             </div>
         </div>
-        <div className="space">
+        <div className="space  relative">
             <div className={styles['home-container']}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>1</span>
@@ -53,25 +64,28 @@ export default function Home(){
                         <Image className="max-2xl:mx-auto" width={522} height={604} alt="cap" src="/images/home/Group1.png"></Image>
                     </div>
                     <span></span>
-                    <div className="max-2xl:order-1">
+                    <div className="max-2xl:order-1 z-3">
                         <h1 className='home-text'>{home("homeAboutText")}</h1>
-                        <div className="max-2xl:mt-[40px] max-2xl:mb-[60px]">
-                            <LearnMore />
+                        <div className="max-2xl:mt-[40px] max-2xl:mb-[60px] z-2">
+                            <LearnMore href="/about" />
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div className={`pt-[100px] max-xs:pt-[80px] ${styles['home-container']}`}>
+            <div className={`pt-[100px] max-xs:pt-[80px] relative ${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>2</span>
                     <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('services')}</span>
-                </div>
+                </div> 
+                <Image className="absolute top-[-90px] right-[-80px] max-2xl:right-[-40px] max-2xl:top-[-50%] max-xs:hidden z-[-1] " width={324} height={538} alt="logo" src="/images/home/ErkinHereketTransparent.png" />
                 <Services />
+                 <div className="pt-[24px] flex justify-center max-2xl:mt-[40px] max-2xl:mb-[60px] z-2">
+                    <Link href="/services" className="font-[RidleyGroteskBold] relative font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] border-[1px] rounded-[100px]">Learn more</Link>
+                </div>
             </div>
         </div>
         <div className="space max-2xl:!pr-0 max-xs:!pr-[16px] " >
-            <div className={`pt-[150px] overflow-x-hidden ${styles['home-container']}`}>
+            <div className={`mt-[100px] overflow-x-hidden ${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>3</span>
                     <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('cranes')}</span>

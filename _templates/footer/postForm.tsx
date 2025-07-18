@@ -44,7 +44,7 @@ export default function PostForm({name, lastName, email, message}: postType) {
                     </svg>
                 </div>
                 <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-xs:mx-auto">
-                    <button onClick={submitForm} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[20px] px-[30px]">
+                    <button onClick={submitForm} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px]  py-[8px] pl-[30px] pr-[8px]">
                         <span className="text-[16px] font-[700] font-[AkzidenzGroteskBoldExtended]">Submit</span>
                         <div className="bg-[#FFFFFF] rounded-[50%] ml-[20px] p-[10px]">
                             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

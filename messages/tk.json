@@ -15,7 +15,8 @@
   "home": {
     "learnMoreBTn": "Has giňişleýin",
     "heroTitle": "Türkmenistany ýokarlyk bilen öňe sürýäris",
-    "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris."
+    "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
+    "srollDown": "Aşak aýlaň"
   },
   "about": {
     "aboutTitle": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
@@ -35,22 +36,22 @@
     {
       "title": "Operatorly kranlaryň kärendesi",
       "desc": "25-den 300 tonna çenli göterijilik ukyby bolan kranlary tejribeli operatorlar bilen kärendesine hödürleýäris. Bu hyzmat müşderileriň wagtyny we serişdelerini tygşytlamaga kömek edýär.",
-      "expandedHeight": 300
+      "expandedHeight": 400
     },
     {
       "title": "Agyr gurluşyklaryň göterilmegi we ýerleşdirilmegi",
       "desc": "Uly gurluşyk we senagat meýdançalarynda agyr metal gurluşyklary we enjamlary götermek we takyk ýerleşdirmek üçin ýöriteleşdirilen çözgütleri hödürleýäris.",
-      "expandedHeight": 300
+      "expandedHeight": 400
     },
     {
       "title": "Sargyt boýunça ýörite hyzmatlar",
       "desc": "Her taslama özboluşly we çylşyrymly bolýar. Şonuň üçin biz müşderiniň aýratyn zerurlyklaryna laýyk ýörite tehniki çözgütleri hödürleýäris.",
-      "expandedHeight": 300
+      "expandedHeight": 400
     },
     {
       "title": "Kranlaryň işleýiş aýratynlyklary",
       "desc": "Gurluşyk we senagat işlerinde dürli göterijilik ukyby bolan kranlar bilen ýokary hilli hyzmatlary hödürleýäris. Aşakda dürli kran modelleriniň aýratynlyklary bilen tanyşyp bilersiňiz.",
-      "expandedHeight": 300
+      "expandedHeight": 400
     }
   ],
   "cranes":[
