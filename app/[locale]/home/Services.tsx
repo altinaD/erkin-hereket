@@ -85,6 +85,7 @@ export default function Services() {
                     animate={{ x: position.x - 50, y: position.y - 30 }}
                 />
             )} */}
+            <span></span>
             <ul className={styles['services']}>
                 {services.map((service, index) => (
                     <motion.li
@@ -112,6 +113,7 @@ export default function Services() {
                     </motion.li>
                 ))}
             </ul>
+            <span></span>
         </div>
     )
 }
