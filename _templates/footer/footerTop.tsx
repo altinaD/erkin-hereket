@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function FooterTop(){
     const pathname = usePathname()
-    const isHomePage = pathname.endsWith('/home') || pathname === '/home';
+    const isHomePage = pathname.endsWith('/home') || pathname === '/home' ||  pathname.endsWith('/') || pathname === '/' 
 
     const t = useTranslations('nav')
     const home = useTranslations("home")
