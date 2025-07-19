@@ -13,7 +13,9 @@ export default function FooterBottom() {
     return (
         <div className="bg-[#252525] min-h-[20vh] relative overflow-hidden">
             <div className="space py-[80px] flex justify-between items-center ">
-                <Image className="max-3xl:hidden" width={200} height={21} alt="Erkin Hereket" src='/images/home/ErkinHereket.png'></Image>
+                <Link href="/">
+                    <Image className="max-3xl:hidden" width={200} height={21} alt="Erkin Hereket" src='/images/home/ErkinHereket.png'></Image>
+                </Link>
                 <nav className="max-3xl:my-[80px] max-3xl:mx-auto max-xs:mt-[60px] max-xs:mb-[70px]">
                     <ul className="flex flex-row gap-[40px] justify-between max-xs:flex-col max-xs:gap-[50px]">
                         <li className="font-[RidleyGroteskMedium] text-[#9E9FA0] text-[16px] font-[500]" >
