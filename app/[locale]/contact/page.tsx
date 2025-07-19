@@ -27,7 +27,7 @@ export default function Page() {
             </div>
             <Contact />
             <div className="space ">
-                <div className="h-[40vh] mb-[80px] max-xs:mt-[100px]">
+                <div className="h-[40vh] mb-[80px] max-xs:mt-[70px] max-xs:mb-[40px]">
                     <Map />
                 </div>
             </div>

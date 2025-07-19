@@ -36,6 +36,20 @@
         margin-bottom: 0;
     }
 }
+.black{
+    margin-bottom: 60px;
+}
+@media (max-width: 1024px){
+    .black{
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 590px){
+    .black{
+        margin-bottom: 0;
+    }
+}
+
 .black .address-box, 
 .black .box{
     color: #252525;
