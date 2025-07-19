@@ -34,7 +34,7 @@ export default function Header() {
     return (
         <header className="fixed w-[100%] z-4 ">
             <div className={`transition-bg duration-300 ease-in-out max z-3 relative max-2xl:!bg-white ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
-            <div className="space">
+            <div className="space !overflow-x-clip">
             <div className={` flex flex-row justify-between  py-[20px]  `}>
                     <Link href="/home">
                         <svg width="164" height="50" viewBox="0 0 164 50" fill="none" xmlns="http://www.w3.org/2000/svg">
