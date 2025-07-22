@@ -53,8 +53,8 @@ export default function Page() {
                             <div className="relative grid grid-cols-[6fr_1fr_5fr] max-2xl:grid-cols-[1fr] pl-[20px] max-xs:pl-[10px] border-l-[1px] max-xs:py-[24px] max-xs:block border-[#D44217]" key={ndx}>
                                 <span className="absolute bg-[#D44217] w-[24px] h-[24px] top-[-24px] left-[-12px] max-xs:left-0"></span>
                                 <div className="w-[100%] relative">
-                                    <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended] mb-[20px] max-xs:text-[20px] uppercase">{project.title}</h1>
-                                    <p className="font-[RidleyGroteskRegular] text-[16px] wrap-break-word">{project.desc}</p>
+                                    <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] uppercase">{project.title}</h1>
+                                    <p className="font-[RidleyGroteskRegular, GeistVariableVF] text-[16px] ">{project.desc}</p>
                                 </div>
                                 <span></span>
                                 <div className="py-[60px] max-2xl:flex max-2xl:justify-end max-xs:justify-center">

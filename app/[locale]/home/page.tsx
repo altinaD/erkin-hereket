@@ -58,7 +58,7 @@ export default function Home(){
             <div className={styles['home-container']}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>1</span>
-                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('about')}</span>
+                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{t('about')}</span>
                 </div>
                 <div className={styles["home-content"]}>
                     <div className="w-[100%] relative h-fit max-2xl:order-3 max-2xl:mt-[60px] max-xs:w-[120%] left-[50%] translate-x-[-50%]">
@@ -76,12 +76,12 @@ export default function Home(){
             <div className={`pt-[100px] max-xs:pt-[80px] relative ${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>2</span>
-                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('services')}</span>
+                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{t('services')}</span>
                 </div> 
                 <Image className="absolute top-[-90px] right-[-80px] max-2xl:right-[-40px] max-2xl:top-[-50%] max-xs:hidden z-[-1] " width={324} height={538} alt="logo" src="/images/home/ErkinHereketTransparent.png" />
                 <Services />
                  <div className="pt-[24px] flex justify-center max-2xl:mt-[40px] max-2xl:mb-[60px] z-2">
-                    <Link href="/services" className="font-[RidleyGroteskBold] relative font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] border-[1px] rounded-[100px]">Learn more</Link>
+                    <Link href="/services" className="font-[RidleyGroteskBold, GeistVariableVF] relative font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] border-[1px] rounded-[100px]">{home("learnMoreBTn")}</Link>
                 </div>
             </div>
         </div>
@@ -89,11 +89,11 @@ export default function Home(){
             <div className={`mt-[100px] overflow-x-hidden ${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>3</span>
-                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('cranes')}</span>
+                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{t('cranes')}</span>
                 </div>
                 <Cranes />
                 <div className="mt-[40px] max-xs:mt-[20px] flex justify-center w-[100%]">
-                    <RedirectButton caption="See all" href="/cranes" />
+                    <RedirectButton caption={home("seeAll")} href="/cranes" />
                 </div>
             </div>
         </div>
@@ -101,14 +101,14 @@ export default function Home(){
             <div className={`${styles['home-container']}`}>
                 <div className={styles['home-title']}>
                     <span className={styles['home-num']}>4</span>
-                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended]">{t('projects')}</span>
+                    <span className="ml-[20px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{t('projects')}</span>
                 </div>
                 <div className="flex flex-row items-start mt-[100px] w-[100%] relative max-2xl:flex-col max-2xl:mt-[30px] max-2xl:mb-[40px] max-xs:mb-0" >
                     <div className="w-[30%] max-2xl:w-[100%] max-2xl:order-2">
                         {(projects as projectType[]).map((project: projectType, ndx: number) => (
                            <div className="mb-[60px] max-xs:mb-[40px]" key={ndx}>
-                                <h1 className="uppercase text-[26px] font-[AkzidenzGroteskBoldExtended] mb-[20px] max-xs:text-[20px]">{project.title}</h1>
-                                <p className="font-[RidleyGroteskRegular] text-[16px]">{project.desc}</p>
+                                <h1 className="uppercase text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px]">{project.title}</h1>
+                                <p className="font-[RidleyGroteskRegular, GeistVariableVF] text-[16px]">{project.desc}</p>
                             </div>
                         ))}
                     </div>

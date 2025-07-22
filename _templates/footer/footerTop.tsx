@@ -28,20 +28,20 @@ export default function FooterTop(){
                 )}
                 <div className={styles['footer-top-content']}>
                     <div>
-                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
+                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
                             <div className={styles['address-box']}>
-                                <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[0]}:</span>
-                                <span className="font-[RidleyGroteskRegular]" >{footer("address")}</span>
+                                <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{contacts[0]}:</span>
+                                <span className="font-[RidleyGroteskRegular, GeistVariableVF]" >{footer("address")}</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
-                                    <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[1]}:</span>
-                                    <span className="font-[RidleyGroteskRegular]" >+993 64 64 66 79</span>
+                                    <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{contacts[1]}:</span>
+                                    <span className="font-[RidleyGroteskRegular, GeistVariableVF] overflow-scroll whitespace-nowrap" >+993 64 64 66 79</span>
                                 </div>
                                 <div className={styles['box']}>
-                                    <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[2]}:</span>
-                                    <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
+                                    <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{contacts[2]}:</span>
+                                    <span  className="font-[RidleyGroteskRegular, GeistVariableVF] overflow-scroll whitespace-nowrap">erkinhereket@gmail.com</span>
                                 </div>
                             </div>
                         </div>

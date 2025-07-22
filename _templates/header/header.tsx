@@ -117,7 +117,7 @@ export default function Header() {
                                     <li key={key} onClick={() => setIsOpen(false)}>
                                         <Link
                                             href={path}
-                                            className={`text-[#6C757D] text-[30px] text-left font-[400]`}
+                                            className={`text-[#6C757D] text-[30px] text-left font-[400] font-[GeistVariableVF]`}
                                         >
                                             {t(key)}
                                         </Link>

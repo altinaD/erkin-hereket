@@ -11,10 +11,12 @@
         "contacts": ["Address", "Phone number", "E-address"],
         "address": "174 Atamyrat Nyyazow Avenue, Bagtyýarlyk District, Ashgabat, Turkmenistan",
         "nav": ["About us", "Services", "Projects", "Contact us"],
-        "copyright": "2025  Erkin Hereket. All rights reserved."
+        "copyright": "2025  Erkin Hereket. All rights reserved.",
+        "submit": "Submit"
     },
     "home": {
         "learnMoreBTn": "Learn more",
+        "seeAll": "See all",
         "heroTitle": "Lifting Turkmenistan Forward",
         "homeAboutText": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
         "srollDown": "Scroll down"

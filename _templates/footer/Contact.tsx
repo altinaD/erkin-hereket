@@ -12,20 +12,20 @@ export default function Contact(){
             <div className="space">
                 <div className={`${styles['black']} ${styles['footer-top-content']}`}>
                     <div>
-                        <h1 className="text-[46px] text-[#252525] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended] max-xs:text-[26px]">{home("heroTitle")}</h1>
+                        <h1 className="text-[46px] text-[#252525] uppercase font-[700] w-[80%] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
                             <div className={` ${styles['address-box']}`}>
-                                <span className="font-[AkzidenzGroteskBoldExtended]">Address</span>
-                                <span className="font-[RidleyGroteskRegular]" >{footer("address")}</span>
+                                <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">Address</span>
+                                <span className="font-[RidleyGroteskRegular, GeistVariableVF]" >{footer("address")}</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
-                                    <span className="font-[AkzidenzGroteskBoldExtended]">Phone number:</span>
-                                        <span className="font-[RidleyGroteskRegular]" >+993 64 64 66 79</span>
+                                    <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">Phone number:</span>
+                                        <span className="font-[RidleyGroteskRegular, GeistVariableVF] overflow-scroll whitespace-nowrap" >+993 64 64 66 79</span>
                                 </div>
                                 <div className={styles['box']}>
-                                    <span className="font-[AkzidenzGroteskBoldExtended]">Address:</span>
-                                    <span  className="font-[RidleyGroteskRegular]" style={{wordWrap: 'break-word'}}>erkinhereket@gmail.com</span>
+                                    <span className="font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">Address:</span>
+                                    <span  className="font-[RidleyGroteskRegular, GeistVariableVF] overflow-scroll whitespace-nowrap">erkinhereket@gmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -34,21 +34,21 @@ export default function Contact(){
                     <form className={styles['form']}>
                         <div className="w-[100%] flex flex-row gap-[20px]">
                             <div className="w-[50%] nowrap mb-[20px]">
-                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[0]}</label>
-                                <input placeholder="Jon" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
+                                <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[0]}</label>
+                                <input placeholder="Jon" className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                             <div className="w-[50%] nowrap mb-[20px]">
-                                <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[1]}</label>
-                                <input placeholder="Doe" className={`${styles['small-input']} font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
+                                <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[1]}</label>
+                                <input placeholder="Doe" className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                         </div>
                         <div className="flex flex-col w-[100%] mb-[20px]">
-                            <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[2]}</label>
-                            <input placeholder="example@mail.com" className=" font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" type="text" />
+                            <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[2]}</label>
+                            <input placeholder="example@mail.com" className=" font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" type="text" />
                         </div>
                         <div className="flex flex-col w-[100%]">
-                             <label className="font-[RidleyGroteskBold] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[3]}</label>
-                            <textarea placeholder="Your message" className="h-[160px] resize-none font-[RidleyGroteskRegular] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" name="" id=""></textarea>
+                             <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[3]}</label>
+                            <textarea placeholder="Your message" className="h-[160px] resize-none font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" name="" id=""></textarea>
                         </div>
                         <div className="flex justify-between items-baseline mb-[40px] max-xs:flex-col max-xs:mb-[60px]">
                             <div className={`${styles['socials2']}`}>
@@ -59,7 +59,7 @@ export default function Contact(){
                                 </Link>
                             </div>
                             <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-3xl:absolute max-3xl:left-[50%] max-3xl:translate-x-[-50%]" >
-                                <RedirectButton caption="Submit" href="/contact" />
+                                <RedirectButton caption={footer("submit")} href="/contact" />
                             </div>
                         </div>
                     </form>

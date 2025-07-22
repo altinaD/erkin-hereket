@@ -11,10 +11,12 @@
       "contacts": ["Salgymyz", "Telefon", "Email"],
       "address": "Aşgabat şäheri, Bagtyýarlyk etraby, Türkmenistanyň Gahrymany Atamyrat Nyýazow şaýoly, 174-nji jaý.",
       "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
-      "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan."
+      "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan.",
+      "submit": "Ugrat"
   },
   "home": {
-    "learnMoreBTn": "Biz barada",
+    "learnMoreBTn": "Has giňişleýin",
+    "seeAll": "Ählisini gör",
     "heroTitle": "Gysgaça taryhymyz",
     "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
     "srollDown": "Aşak aýlaň"

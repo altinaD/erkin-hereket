@@ -34,7 +34,7 @@
 }
 .hero-title{
     max-width: 794px;
-    font-family: AkzidenzGroteskBoldExtended;
+    font-family: AkzidenzGroteskBoldExtended, GeistVariableVF;
     font-weight: 700;
     font-style: Bold;
     font-size: 66px;
@@ -89,7 +89,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: RidleyGroteskBold;
+    font-family: RidleyGroteskBold, GeistVariableVF;
     font-weight: 700;
     font-style: Bold;
     font-size: 28px;
