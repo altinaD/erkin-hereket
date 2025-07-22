@@ -1,9 +1,13 @@
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
+
 type linkType = {
     href: string
 }
 export default function LearnMore({href}: linkType){
+    const t = useTranslations("home")
+
     return (
-        <Link href={href} className="font-[RidleyGroteskBold] relative top-[50px] left-[100px] font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] border-[1px] rounded-[100px]">Learn more</Link>
+        <Link href={href} className="font-[RidleyGroteskBold] relative top-[50px] left-[0] font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] border-[1px] rounded-[100px]">{t("learnMoreBTn")}</Link>
     )
 }

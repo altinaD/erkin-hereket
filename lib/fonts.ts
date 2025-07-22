@@ -1,9 +1,14 @@
 import localFont from "next/font/local"
 
+export const GeistVariableVF = localFont({
+  src: "../public/fonts/GeistVariableVF.ttf",
+  display: "swap",
+  weight: '700',
+});
+
 export const AkzidenzGroteskBoldExtended = localFont({
   src: "../public/fonts/AkzidenzGrotesk-BoldExtended.otf",
   display: "swap",
-  weight: '700',
 });
 
 export const AkzidenzGroteskMediumExtended = localFont({

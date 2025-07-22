@@ -8,49 +8,50 @@
   },
   "footer": {
       "contactBox": ["Ady", "Familiýasy", "E-poçta", "Habaryňyz"],
-      "contacts": ["Salgy", "Telefon belgisi", "E-poçta"],
+      "contacts": ["Salgymyz", "Telefon", "Email"],
+      "address": "Aşgabat şäheri, Bagtyýarlyk etraby, Türkmenistanyň Gahrymany Atamyrat Nyýazow şaýoly, 174-nji jaý.",
       "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
-      "copyright": "2025  Erkin Hereket. Ähli hukuklar goralan."
+      "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan."
   },
   "home": {
-    "learnMoreBTn": "Has giňişleýin",
-    "heroTitle": "Türkmenistany ýokarlyk bilen öňe sürýäris",
+    "learnMoreBTn": "Biz barada",
+    "heroTitle": "Gysgaça taryhymyz",
     "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
     "srollDown": "Aşak aýlaň"
   },
   "about": {
-    "aboutTitle": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
+    "aboutTitle": "“Erkin hereket” hojalyk jemgyýeti gurluşyk we senagat pudagynda ýokary hilli tehniki hyzmatlary hödürleýän kärhanadyr. Dürli gurluşyk işlerinde 20 ýyldan gowrak tejribä eýe bolan kärhanamyz ýük göteriji awtokranlarynyň kärendesi boýunça öňdebaryjy we elýeterli hyzmatlary ýerine ýetirýär.",
     "counterCaptions": ["Kranlar", "Taslamalar", "Kanagatlanan müşderiler", "Iş tejribesi (ýyl)"],
     "experienceTitle": "Tejribämiz",
-    "experienceDesc": "Uly göwrümli kranlarymyz bilen esasy gurluşyk taslamalarynda üstünlikli işledik. Müşderilerimiz bilen uzak möhletli hyzmatdaşlygyň netijesinde köp sanly senagat, gurluşyk we önümçilik taslamalaryny üstünlikli durmuşa geçirdik.",
+    "experienceDesc": "Kärhanamyz ýokary göterijilikli awtokranlarynyň kömegi bilen iri gurluşyk taslamalarynda üstünlikli işleri alyp bardy. Müşderilerimiz bilen köp ýyllaryň dowamynda hyzmatdaşlyk edip, birnäçe senagat, gurluşyk we önümçilik taslamalaryny üstünlikli ýerine ýetirdik.",
     "devPeriodTitle": "Ösüş döwrümiz",
-    "devPeriodDesc": "Tehnologiýa we innowasiýa arkaly ösüş ýolumyz dowam edýär. Täze kranlary, enjamlar we göteriji gurallary hödürlemek bilen hyzmat ugurlarymyzy güýçlendirýäris.",
+    "devPeriodDesc": "Biziň ösüş ýolumyz tehnologiýa we innowasion täzelikler arkaly dowam edýär. Täze awtokranlar, enjamlar we ýük göteriji abzallary ulanmak arkaly ösdürilýän hyzmatlar netijesinde  iş ugurlarymyzy pugtalandyrýarys.",
     "missionTitle": "Maksadymyz",
-    "missionDesc": "Biziň maksadymyz ähli müşderilere howpsuz, çalt we ýokary hilli tehniki hyzmatlary hödürlemek hem-de pudagyň ösüşine uly goşant goşmakdyr.",
-    "advTitle": "Üstünliklerimiz",
-    "advDesc": "<grey>Biziň hyzmatlarymyzyň artykmaçlyklary</grey> — <red>kepillendirilen hil, döwrebap enjamlar, tejribeli işgärler we açyk aragatnaşyk</red>. Çalt hyzmat, howpsuzlyk we şahsylaşdyrylan çemeleşme <grey>esasy ýörelgelerimizdir.</grey>",
-    "goalsTitle": "Maksatlarymyz",
-    "goalsDesc": "<grey>Anyk kesgitlenen maksatlar bilen täze ugurlara ösmegi maksat edinýäris</grey>. <red>Ösüş strategiýamyz — halkara hyzmatdaşlygy we öňdebaryjy tehnologiýalar</red> arkaly hyzmatlaryň görnüşini we hilini giňeltmekdir."
+    "missionDesc": "Biziň maksadymyz — ähli müşderilerimize howpsuz, çalt we ýokary hilli tehniki hyzmatlary bermek bilen bir hatarda, pudagyň ösüşine öz mynasyp goşandymyzy goşmakdyr.",
+    "advTitle": "Artykmaçlyklar",
+    "advDesc": "<grey>Biziň hyzmatlarymyzyň aýratynlygy</grey> — <red>ýokary hil kepilligi, döwrebap tehnikalar, tejribeli işgärler we müşderiler bilen aç-açan gatnaşyklarymyz.</red> Çalt hyzmat, howpsuzlyk we şahsy çemeleşme biziň esasy ýörelgelerimizdir.",
+    "goalsTitle": "Geljekki ösüş ugurlary",
+    "goalsDesc": "<grey>Kärhanamyz öňünde goýan maksatly meýilnamalary bilen täze ugurlarda hem kämilleşmegi nazarda tutýar</grey>. <red>Ösen tehnologiýa esaslanyp, hyzmatyň görnüşlerini</red> köpeltmek we hilini has-da ýokarlandyrmak halkara hyzmatdaşlyklarynda biziň ösüş strategiýamyzyň esasy bölegi bolup durýar."
   },
   "services": [
     {
-      "title": "Operatorly kranlaryň kärendesi",
-      "desc": "25-den 300 tonna çenli göterijilik ukyby bolan kranlary tejribeli operatorlar bilen kärendesine hödürleýäris. Bu hyzmat müşderileriň wagtyny we serişdelerini tygşytlamaga kömek edýär.",
+      "title": "Awtokranlary operatory bilen birlikde kärendesine bermek",
+      "desc": "Kärhanamyz dürli ýük göterijilikli (25–300 tonna) awtokranlaryny köp ýyllyk iş tejribeli ussat operatorlar bilen birlikde kärendesine berýär. Bu hyzmatlaryň çäklerinde biz müşderileriň wagtyny we serişdelerini tygşytlamaga ýardam edýäris.",
       "expandedHeight": 400
     },
     {
-      "title": "Agyr gurluşyklaryň göterilmegi we ýerleşdirilmegi",
-      "desc": "Uly gurluşyk we senagat meýdançalarynda agyr metal gurluşyklary we enjamlary götermek we takyk ýerleşdirmek üçin ýöriteleşdirilen çözgütleri hödürleýäris.",
+      "title": "Agyr gurluşlary (ýükleri) götermek we ýerinde goýmak",
+      "desc": "Iri gurluşyk we önümçilik desgalary üçin agyr demir gurluşlary hem-de enjamlary götermek, ýerbe-ýer oturtmak boýunça ýöriteleşdirilen çözgütleri hödürleýäris. Bu hyzmatlary ýerine ýetirmäge biziň tejribämiz we kämil awtokranlarymyz doly derejede mümkinçilik berýär.",
       "expandedHeight": 400
     },
     {
-      "title": "Sargyt boýunça ýörite hyzmatlar",
-      "desc": "Her taslama özboluşly we çylşyrymly bolýar. Şonuň üçin biz müşderiniň aýratyn zerurlyklaryna laýyk ýörite tehniki çözgütleri hödürleýäris.",
+      "title": "Buýurmalar boýunça ýörite hyzmatlar",
+      "desc": "Her bir taslamanyň özboluşlylygy, çylşyrymlylygy bar. Şonuň üçin biz müşderileriň aýratyn buýurmalaryna laýyklykda meýilleşdirilen, şahsylaşdyrylan tehniki çözgütleri hödürleýäris. Bu biziň taslamany wagtynda ýetişdirmäge edýän goşandymyzyň aýdyň subutnamasydyr.",
       "expandedHeight": 400
     },
     {
-      "title": "Kranlaryň işleýiş aýratynlyklary",
-      "desc": "Gurluşyk we senagat işlerinde dürli göterijilik ukyby bolan kranlar bilen ýokary hilli hyzmatlary hödürleýäris. Aşakda dürli kran modelleriniň aýratynlyklary bilen tanyşyp bilersiňiz.",
+      "title": "Awtokranlaryň işe giriziliş we ulanylyş aýratynlyklary",
+      "desc": "Kärhanamyz dürli ýük göterijilik kuwwatlyklaryna eýe bolan awtokranlaryň kömegi bilen, gurluşyk we senagat işlerinde ýokary hilli hyzmatlary hödürleýär. Aşakda dürli kysymdaky awtokranlaryň aýratynlyklary we ulanylyş maglumatlary görkezilýär.",
       "expandedHeight": 400
     }
   ],
@@ -65,57 +66,57 @@
         "title": "FAUN RTF-30",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "30 tonna"],
         "boomLen": ["Okunyň uzynlygy:", "28 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8 m"]
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.0 m"]
       },
       {
         "title": "KATO KA400E",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "40 tonna"],
-        "boomLen": ["Okunyň uzynlygy:", "42.2 m"],
+        "boomLen": ["Okunyň uzynlygy:", "34.4 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "9.2 m"]
       },
       {
         "title": "XCMG QY50KA",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "50 tonna"],
         "boomLen": ["Okunyň uzynlygy:", "42.7 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.3 m"]
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "15.0 m"]
       },
       {
         "title": "FAUN ATF60-4",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "60 tonna"],
         "boomLen": ["Okunyň uzynlygy:", "40.2 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "16 m"]
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "16.0 m"]
       },
       {
         "title": "LIEBHERR LTM1070/1",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "70 tonna"],
-        "boomLen": ["Okunyň uzynlygy:", "42 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "18 m"]
+        "boomLen": ["Okunyň uzynlygy:", "42.0 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "18.0 m"]
       },
       {
         "title": "LIEBHERR LTM1100-4.2",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "100 tonna"],
-        "boomLen": ["Okunyň uzynlygy:", "60 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "19 m"]
+        "boomLen": ["Okunyň uzynlygy:", "60.0 m"],
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "19.0 m"]
       },
       {
         "title": "LIEBHERR LTM1300/1",
         "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "300 tonna"],
         "boomLen": ["Okunyň uzynlygy:", "60 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "42 m"]
+        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "42.0 m"]
       }
   ],
   "projects": [
     {
-      "title": "GURLUŞYK TASLAMALARY",
-      "desc": "Türkmenistanyň dürli künjeklerinde ýerine ýetirilen uly gurluşyk taslamalaryndaky gatnaşygymyz tejribämizi we mümkinçiliklerimizi görkezýär. Kranlarymyz bilen wagtynda we ýokary hilli hyzmat etdik."
+      "title": "Çylşyrymly gurluşyk taslamalary",
+      "desc": "Türkmenistanyň dürli künjeklerinde amala aşyrylan iri gurluşyk taslamalaryna goşan goşantlarymyz biziň tejribämizi we mümkinçiliklerimizi görkezýär. Awtokranlarymyzyň kömegi bilen desgalaryň gurluşygyna öz wagtynda we ýokary hilli gatnaşdyk."
     },
     {
-      "title": "SENAGAT WE ÖNÜMÇILIK TASLAMALARY",
-      "desc": "Enjamlarymyzyň energiýa, önümçilik we beýleki senagat desgalarynda giňden ulanylmagy, bu ugurda ýokary hil derejesini görkezýär."
+      "title": "Senagat we önümçilik taslamalary",
+      "desc": "Energetika, önümçilik we beýleki senagat desgalarynda tehnikalarymyzyň giň gerimli ulanylmagy, “Erkin hereket” hojalyk jemgyýetimiziň bu ugurda ýokary derejesini tassyklaýar."
     },
     {
-      "title": "KARHANALAR BILEN HYZMATDAŞLYK",
-      "desc": "Uly döwlet we hususy kärhanalar bilen uzak möhletleýin hyzmatdaşlyk edýäris. Mysal üçin, Türkiýäniň “Rönesans Endüstri Tesisleri”, “Çalık Enerji”, Ukrainanyň “Interbudmontazh” we “Rysgally Zähmet” hususy kärhanasy bilen hyzmatdaşlyk edýäris."
+      "title": "Kärhanalar bilen hyzmatdaşlyklar",
+      "desc": "Biz iri hususy hem-de döwlet kärhanalary bilen uzak möhletleýin hyzmatdaşlyk saklaýarys. Muňa mysal hökmünde ýurdumyzda hereket edýän Türkiýäniň “Rönesans Endüstri Tegisleri Inşaat Sanai we Tijaret A.Ş.” kompaniýasyny, Türkiýäniň “Çalik Enerji Sanai we Tijaret A.Ş.” kompaniýasyny, Ukrainanyň “Interbudmontaž” kompaniýasyny, “Rysgally zähmet” hususy kärhanasyny we beýlekileri görkezmek bolar."
     }
   ]
 }

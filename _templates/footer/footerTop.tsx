@@ -32,7 +32,7 @@ export default function FooterTop(){
                         <div className={styles["contact-boxes"]}>
                             <div className={styles['address-box']}>
                                 <span className="font-[AkzidenzGroteskBoldExtended]">{contacts[0]}:</span>
-                                <span className="font-[RidleyGroteskRegular]" >G. Kulyýew (2127) “Begenchli” Floor 3</span>
+                                <span className="font-[RidleyGroteskRegular]" >{footer("address")}</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>

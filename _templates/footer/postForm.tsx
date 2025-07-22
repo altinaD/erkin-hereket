@@ -33,7 +33,7 @@ export default function PostForm({name, lastName, email, message}: postType) {
             </div>
             <div className="flex flex-col w-[100%]">
                 <label className="font-[RidleyGroteskBold] mb-[5px] text-[#FFFFFF] text-[14px] font-[700]">{message}</label>
-                <textarea placeholder="Your message" className=" font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]" name="" id=""></textarea>
+                <textarea placeholder="Your message" className="h-[160px] resize-none font-[RidleyGroteskRegular] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]" name="" id=""></textarea>
             </div>
             <div className="flex justify-between items-baseline mb-[40px] max-xs:flex-col max-xs:mb-[60px]">
                 <div className={`${styles['socials2']}`}>

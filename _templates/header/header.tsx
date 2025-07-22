@@ -84,7 +84,7 @@ export default function Header() {
                                 <li key={key}>
                                     <Link
                                         href={key}
-                                        className={`transition-text duration-300 text-nowrap cursor-pointer text-[16px] font-[400] ${isScrolled ? 'text-[#212529]' : 'text-[#FFFFFF]'}`}
+                                        className={`transition-text duration-300 text-nowrap cursor-pointer font-[GeistVariableVF] text-[16px] font-[400] ${isScrolled ? 'text-[#212529]' : 'text-[#FFFFFF]'}`}
                                     >
                                         {t(key)}
                                     </Link>

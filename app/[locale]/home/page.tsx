@@ -40,7 +40,7 @@ export default function Home(){
                 <div className="space">
                     <div className="hero-content">
                         <h1 className="hero-title">{home('heroTitle')}</h1>
-                        <RedirectButton caption="Services" href="/services" />
+                        <RedirectButton caption={t("services")} href="/services" />
                     </div>
                 </div>
                 <div  className={styles['scroll']}>
@@ -107,7 +107,7 @@ export default function Home(){
                     <div className="w-[30%] max-2xl:w-[100%] max-2xl:order-2">
                         {(projects as projectType[]).map((project: projectType, ndx: number) => (
                            <div className="mb-[60px] max-xs:mb-[40px]" key={ndx}>
-                                <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended] mb-[20px] max-xs:text-[20px]">{project.title}</h1>
+                                <h1 className="uppercase text-[26px] font-[AkzidenzGroteskBoldExtended] mb-[20px] max-xs:text-[20px]">{project.title}</h1>
                                 <p className="font-[RidleyGroteskRegular] text-[16px]">{project.desc}</p>
                             </div>
                         ))}

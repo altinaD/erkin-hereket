@@ -11,7 +11,8 @@ import {
   RidleyGroteskRegular,
   RubikLight,
   RubikMedium,
-  RubikRegular
+  RubikRegular,
+  GeistVariableVF
 } from "@/lib/fonts";
 
 export const metadata: Metadata = {
@@ -37,7 +38,8 @@ export default async function RootLayout(props: {
         ${RidleyGroteskRegular.className} 
         ${RubikLight.className} 
         ${RubikMedium.className} 
-        ${RubikRegular.className} 
+        ${RubikRegular.className}
+        ${GeistVariableVF.className} 
       `}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
