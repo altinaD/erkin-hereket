@@ -1,12 +1,79 @@
-import RedirectButton from "@/_components/redirectBtn"
+
 import styles from "./styles.module.css"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
+import emailjs from '@emailjs/browser';
+import { useEffect, useState, useRef, FormEvent } from "react"
+
+interface FormData {
+    name: string,
+    lastName: string,
+    email: string,
+    message: string
+}
 
 export default function Contact(){
+    
+    useEffect(() => {
+        emailjs.init(process.env.NEXT_PUBLIC_PUBLIC_KEY!)
+    }, []);
+    
+    const [error, setError] = useState("")
+    const [success, setSuccess] = useState("")
     const home = useTranslations("home")
     const footer = useTranslations("footer")
     const contact:string[] = footer.raw("contactBox") as string[];
+
+    const [formData, setFormData] = useState<FormData>({
+        name: "",
+        lastName: "",
+        email: "",
+        message: ""
+    })
+
+    const [loading, setLoading] = useState<boolean>(false)
+
+    const formRef = useRef<HTMLFormElement>(null);
+
+      const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        
+        setLoading(true);
+
+        if(!formData.name || !formData.lastName || !formData.email || !formData.message){
+            setError("Please fill all inputs")
+        }
+
+        try {
+        await emailjs.send(
+            process.env.NEXT_PUBLIC_SERVICE_ID!, 
+            process.env.NEXT_PUBLIC_TEMPLATE_ID!, 
+            {
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+            },
+            process.env.NEXT_PUBLIC_PUBLIC_KEY
+        );
+
+        setFormData({ name: "", lastName: "", email: "", message: "" }); 
+        setSuccess("Yor message successfully sent")
+        setTimeout(() => {
+            setSuccess("")
+        }, 3000)
+        formRef.current?.reset();
+
+        } catch (error) {
+            console.error("ERROR:", error);
+        } finally {
+            setLoading(false);
+            formData.name = ""
+            formData.email = ""
+            formData.message = ""
+        }
+    };
+
+
     return (
         <div className="w-[100%]" >
             <div className="space">
@@ -31,24 +98,24 @@ export default function Contact(){
                         </div>
                     </div>
                     <span></span>
-                    <form className={styles['form']}>
+                    <form className={styles['form']} onSubmit={handleSubmit}>
                         <div className="w-[100%] flex flex-row gap-[20px]">
                             <div className="w-[50%] nowrap mb-[20px]">
                                 <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[0]}</label>
-                                <input placeholder="Jon" className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
+                                <input onChange={(e) => setFormData((prev) => ({ ...prev, name: e.target.value }))} placeholder="Jon" value={formData.name} className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                             <div className="w-[50%] nowrap mb-[20px]">
                                 <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[1]}</label>
-                                <input placeholder="Doe" className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
+                                <input onChange={(e) => setFormData((prev) => ({ ...prev, lastName: e.target.value }))} placeholder="Doe" value={formData.lastName} className={`${styles['small-input']} font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]`} type="text" />
                             </div>
                         </div>
                         <div className="flex flex-col w-[100%] mb-[20px]">
                             <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[2]}</label>
-                            <input placeholder="example@mail.com" className=" font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" type="text" />
+                            <input onChange={(e) => setFormData((prev) => ({ ...prev, email: e.target.value }))} placeholder="example@mail.com" value={formData.email} className=" font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" type="text" />
                         </div>
                         <div className="flex flex-col w-[100%]">
                              <label className="font-[RidleyGroteskBold, GeistVariableVF] mb-[5px] text-[#252525] text-[14px] font-[700]">{contact[3]}</label>
-                            <textarea placeholder="Your message" className="h-[160px] resize-none font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" name="" id=""></textarea>
+                            <textarea onChange={(e) => setFormData((prev) => ({ ...prev, message: e.target.value }))} placeholder="Your message" value={formData.message} className="h-[160px] resize-none font-[RidleyGroteskRegular, GeistVariableVF] placeholder-[#30303054] border-[#C8C8C8] border-[0.5px] bg-[#F0F0F0] py-[16px] px-[20px]" name="" id=""></textarea>
                         </div>
                         <div className="flex justify-between items-baseline mb-[40px] max-xs:flex-col max-xs:mb-[60px]">
                             <div className={`${styles['socials2']}`}>
@@ -59,8 +126,17 @@ export default function Contact(){
                                 </Link>
                             </div>
                             <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-3xl:absolute max-3xl:left-[50%] max-3xl:translate-x-[-50%]" >
-                                <RedirectButton caption={footer("submit")} href="/contact" />
+                                 <button disabled={loading} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[8px] pl-[30px] pr-[8px]">
+                                    <span className="text-[16px] font-[700] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{loading ? footer("loading") : footer("submit")}</span>
+                                    <div className="bg-[#FFFFFF] rounded-[50%] ml-[20px] p-[10px]">
+                                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20.3125 6.5V17.0625C20.3125 17.278 20.2269 17.4847 20.0745 17.637C19.9221 17.7894 19.7155 17.875 19.5 17.875C19.2845 17.875 19.0778 17.7894 18.9254 17.637C18.7731 17.4847 18.6875 17.278 18.6875 17.0625V8.46117L7.07481 20.0748C6.92235 20.2273 6.71557 20.313 6.49996 20.313C6.28436 20.313 6.07758 20.2273 5.92512 20.0748C5.77266 19.9224 5.68701 19.7156 5.68701 19.5C5.68701 19.2844 5.77266 19.0776 5.92512 18.9252L17.5388 7.3125H8.93746C8.72198 7.3125 8.51531 7.2269 8.36294 7.07452C8.21057 6.92215 8.12496 6.71549 8.12496 6.5C8.12496 6.28451 8.21057 6.07785 8.36294 5.92548C8.51531 5.7731 8.72198 5.6875 8.93746 5.6875H19.5C19.7155 5.6875 19.9221 5.7731 20.0745 5.92548C20.2269 6.07785 20.3125 6.28451 20.3125 6.5Z" fill="#D44217"/>
+                                        </svg>
+                                    </div>              
+                                </button>
                             </div>
+                            {success && <p className="text-green-500">{success}</p>}
+                            {error && <p className="text-red-600">{error}</p>}
                         </div>
                     </form>
                 </div>

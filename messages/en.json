@@ -12,7 +12,8 @@
         "address": "174 Atamyrat Nyyazow Avenue, Bagtyýarlyk District, Ashgabat, Turkmenistan",
         "nav": ["About us", "Services", "Projects", "Contact us"],
         "copyright": "2025  Erkin Hereket. All rights reserved.",
-        "submit": "Submit"
+        "submit": "Submit",
+        "loading": "Sending"
     },
     "home": {
         "learnMoreBTn": "Learn more",
