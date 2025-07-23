@@ -13,7 +13,7 @@ interface FormData {
 }
 
 export default function Contact(){
-    
+    const t = useTranslations()
     useEffect(() => {
         emailjs.init(process.env.NEXT_PUBLIC_PUBLIC_KEY!)
     }, []);
@@ -41,7 +41,7 @@ export default function Contact(){
         setLoading(true);
 
         if(!formData.name || !formData.lastName || !formData.email || !formData.message){
-            setError("Please fill all inputs")
+            setError(t("errorMsg"))
         }
 
         try {
@@ -57,7 +57,7 @@ export default function Contact(){
         );
 
         setFormData({ name: "", lastName: "", email: "", message: "" }); 
-        setSuccess("Yor message successfully sent")
+        setSuccess(t("successMsg"))
         setTimeout(() => {
             setSuccess("")
         }, 3000)
@@ -126,7 +126,7 @@ export default function Contact(){
                                 </Link>
                             </div>
                             <div className="max-xs:mt-[20px] max-xs:mb-[60px] max-3xl:absolute max-3xl:left-[50%] max-3xl:translate-x-[-50%]" >
-                                 <button disabled={loading} className="w-fit mt-[20px] bg-[#D44217] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[8px] pl-[30px] pr-[8px]">
+                                 <button disabled={loading} className="transition-bg duration-300 ease-in-out w-fit mt-[20px] bg-[#D44217] hover:bg-[#E35930] text-[#FFFFFF] flex flex-row items-center rounded-[100px] py-[8px] pl-[30px] pr-[8px]">
                                     <span className="text-[16px] font-[700] font-[AkzidenzGroteskBoldExtended, GeistVariableVF]">{loading ? footer("loading") : footer("submit")}</span>
                                     <div className="bg-[#FFFFFF] rounded-[50%] ml-[20px] p-[10px]">
                                         <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,8 +135,8 @@ export default function Contact(){
                                     </div>              
                                 </button>
                             </div>
-                            {success && <p className="text-green-500">{success}</p>}
-                            {error && <p className="text-red-600">{error}</p>}
+                            {success && <p className="max-w-[200px] text-center  text-green-500">{success}</p>}
+                            {error && <p className="max-w-[200px] text-center text-red-600">{error}</p>}
                         </div>
                     </form>
                 </div>

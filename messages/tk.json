@@ -15,6 +15,8 @@
       "submit": "Ugrat",
       "loading": "Ugradylýar"
   },
+  "errorMsg": "Hemme meýdançalary dolduryň",
+  "successMsg": "Hatyňyz üstünlikli iberildi",
   "home": {
     "learnMoreBTn": "Has giňişleýin",
     "seeAll": "Ählisini gör",
