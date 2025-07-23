@@ -81,7 +81,7 @@ export default function Home(){
                 <Image className="absolute top-[-90px] right-[-80px] max-2xl:right-[-40px] max-2xl:top-[-50%] max-xs:hidden z-[-1] " width={324} height={538} alt="logo" src="/images/home/ErkinHereketTransparent.png" />
                 <Services />
                  <div className="pt-[24px] flex justify-center max-2xl:mt-[40px] max-2xl:mb-[60px] z-2">
-                    <Link href="/services" className="transition-bg transition-border duration-300 ease-in-out bg-[#fff] hover:bg-[#C3C3C3] font-[RidleyGroteskBold, GeistVariableVF] relative font-[700]  text-[16px] uppercase py-[21px] px-[30px] boreder-[#9E9FA0] hover:border-transparent border-[1px] rounded-[100px]">{home("learnMoreBTn")}</Link>
+                    <Link href="/services" className="transition-bg transition-color duration-300 ease-in-out bg-[#fff] hover:bg-[#C3C3C3] font-[RidleyGroteskBold, GeistVariableVF] relative font-[700]  text-[16px] uppercase py-[21px] px-[30px] border-[#9E9FA0] hover:border-transparent border-[1px] rounded-[100px]">{home("learnMoreBTn")}</Link>
                 </div>
             </div>
         </div>
