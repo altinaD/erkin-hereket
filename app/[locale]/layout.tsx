@@ -18,6 +18,9 @@ import {
 export const metadata: Metadata = {
   title: "Erkin hereket",
   description: "Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default async function RootLayout(props: {
