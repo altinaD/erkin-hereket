@@ -71,43 +71,43 @@
             "title": "FAUN RTF-30",
             "maxLift": ["Max lifting capacity:", "30 tons"],
             "boomLen": ["Boom length:", "28 m"],
-            "jibExt": ["Jib extension length:", "8 m"]
+            "jibExt": ["Jib extension length:", "8.0 m"]
         },
         {
             "title": "KATO KA400E",
             "maxLift": ["Max lifting capacity:", "40 tons"],
-            "boomLen": ["Boom length:", "42.2 m"],
+            "boomLen": ["Boom length:", "34.4 m"],
             "jibExt": ["Jib extension length:", "9.2 m"]
         },
         {
             "title": "XCMG QY50KA",
             "maxLift": ["Max lifting capacity:", "50 tons"],
             "boomLen": ["Boom length:", "42.7 m"],
-            "jibExt": ["Jib extension length:", "8.3 m"]
+            "jibExt": ["Jib extension length:", "15.0 m"]
         },
         {
             "title": "FAUN ATF60-4",
             "maxLift": ["Max lifting capacity:", "60 tons"],
             "boomLen": ["Boom length:", "40.2 m"],
-            "jibExt": ["Jib extension length:", "16 m"]
+            "jibExt": ["Jib extension length:", "16.0 m"]
         },
         {
             "title": "LIEBHERR LTM1070/1",
             "maxLift": ["Max lifting capacity:", "70 tons"],
-            "boomLen": ["Boom length:", "42 m"],
-            "jibExt": ["Jib extension length:", "18 m"]
+            "boomLen": ["Boom length:", "42.0 m"],
+            "jibExt": ["Jib extension length:", "18.0 m"]
         },
         {
             "title": "LIEBHERR LTM1100-4.2",
             "maxLift": ["Max lifting capacity:", "100 tons"],
             "boomLen": ["Boom length:", "60 m"],
-            "jibExt": ["Jib extension length:", "19 m"]
+            "jibExt": ["Jib extension length:", "19.0 m"]
         },
         {
             "title": "LIEBHERR LTM1300/1",
             "maxLift": ["Max lifting capacity:", "300 tons"],
             "boomLen": ["Boom length:", "60 m"],
-            "jibExt": ["Jib extension length:", "42 m"]
+            "jibExt": ["Jib extension length:", "42.0 m"]
         }
     ],
     "projects": [
