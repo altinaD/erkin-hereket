@@ -34,7 +34,8 @@
 }
 .hero-title{
     max-width: 794px;
-    font-family: AkzidenzGroteskBoldExtended, GeistVariableVF;
+    /* font-family: AkzidenzGroteskBoldExtended, GeistVariableVF; */
+    font-family: GeistVariableVF;
     font-weight: 700;
     font-style: Bold;
     font-size: 66px;
@@ -89,7 +90,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: RidleyGroteskBold, GeistVariableVF;
+    /* font-family: RidleyGroteskBold, GeistVariableVF; */
+    font-family: GeistVariableVF;
     font-weight: 700;
     font-style: Bold;
     font-size: 28px;
@@ -165,7 +167,8 @@
       }
 
       .cls-4 {
-        font-family: RidleyGrotesk-Bold, 'Ridley Grotesk';
+        /* font-family: RidleyGrotesk-Bold, 'Ridley Grotesk'; */
+        font-family: GeistVariableVF;
         font-size: 15.84801px;
         font-weight: 700;
       }

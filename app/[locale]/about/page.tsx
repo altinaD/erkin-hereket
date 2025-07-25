@@ -68,15 +68,25 @@ export default function Page() {
                 <div className="absolute w-[100%] bottom-[66px] max-xs:bottom-[30px]">
                     <div className="space relative grid grid-cols-[6fr_6fr] gap-[20px] max-2xl:grid-cols-[1fr]">
                         <div className="bg-[#FFFFFF] p-[20px]">
-                            <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1>
-                            <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
+                            {/* <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1> */}
+                            <h1 className="text-[26px] font-black font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1>
+                            {/* <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
+                                red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
+                                grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
+                            })}</p> */}
+                            <p className="font-[GeistVariableVF] font-bold text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
                                 red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
                                 grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
                             })}</p>
                         </div>
                         <div className="bg-[#FFFFFF] p-[20px]">
-                            <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1>
-                              <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
+                            {/* <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1> */}
+                            <h1 className="text-[26px] font-black font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1>
+                              {/* <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
+                                red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
+                                grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
+                            })}</p> */}
+                            <p className="font-[GeistVariableVF] font-bold text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
                                 red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
                                 grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
                             })}</p>

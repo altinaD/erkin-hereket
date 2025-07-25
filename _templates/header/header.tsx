@@ -64,7 +64,7 @@ export default function Header() {
                                     <li key={key}>
                                         <Link
                                             href={key}
-                                            className={`transition-text duration-300 text-nowrap cursor-pointer font-[GeistVariableVF] text-[16px] font-[400] ${isScrolled ? 'text-[#212529]' : 'text-[#FFFFFF]'}`}
+                                            className={`transition-text duration-300 text-nowrap cursor-pointer font-[GeistVariableVF] text-[16px] font-medium ${isScrolled ? 'text-[#212529]' : 'text-[#FFFFFF]'}`}
                                         >
                                             {t(key)}
                                         </Link>
@@ -97,7 +97,7 @@ export default function Header() {
                                         <li key={key} onClick={() => setIsOpen(false)}>
                                             <Link
                                                 href={path}
-                                                className={`text-[#6C757D] text-[30px] text-left font-[400] font-[GeistVariableVF]`}
+                                                className={`text-[#6C757D] text-[30px] text-left font-medium font-[GeistVariableVF]`}
                                             >
                                                 {t(key)}
                                             </Link>

@@ -4,14 +4,14 @@ import "./global.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import {
-  AkzidenzGroteskBoldExtended,
-  AkzidenzGroteskMediumExtended,
-  RidleyGroteskBold,
-  RidleyGroteskMedium,
-  RidleyGroteskRegular,
-  RubikLight,
-  RubikMedium,
-  RubikRegular,
+  // AkzidenzGroteskBoldExtended,
+  // AkzidenzGroteskMediumExtended,
+  // RidleyGroteskBold,
+  // RidleyGroteskMedium,
+  // RidleyGroteskRegular,
+  // RubikLight,
+  // RubikMedium,
+  // RubikRegular,
   GeistVariableVF
 } from "@/lib/fonts";
 
@@ -34,14 +34,6 @@ export default async function RootLayout(props: {
   return (
     <html lang={locale}>
       <body className={`
-        ${AkzidenzGroteskBoldExtended.className} 
-        ${AkzidenzGroteskMediumExtended.className} 
-        ${RidleyGroteskBold.className} 
-        ${RidleyGroteskMedium.className} 
-        ${RidleyGroteskRegular.className} 
-        ${RubikLight.className} 
-        ${RubikMedium.className} 
-        ${RubikRegular.className}
         ${GeistVariableVF.className} 
       `}>
         <NextIntlClientProvider locale={locale} messages={messages}>
