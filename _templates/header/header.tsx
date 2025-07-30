@@ -32,7 +32,7 @@ export default function Header() {
     }, [])
 
     return (
-        <header className="fixed w-[100%] z-4 ">
+        <header className="fixed w-[100%] z-4 overflow-visible">
             <div className={`transition-bg duration-300 ease-in-out max z-3 relative max-2xl:!bg-white ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
                 <div className="space !overflow-x-clip">
                     <div className={` flex flex-row justify-between  py-[20px]  `}>
