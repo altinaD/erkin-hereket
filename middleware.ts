@@ -13,9 +13,9 @@ export function middleware(request: NextRequest) {
   ) {
     return NextResponse.next()
   }
-  if (pathname === '/') {
-    return NextResponse.redirect(new URL('/en', request.url));
-  }
+  // if (pathname === '/') {
+  //   return NextResponse.redirect(new URL('/en', request.url));
+  // }
   const acceptLanguage = request.headers.get('accept-language') || 'en'
   const preferredLocale = acceptLanguage.split(',')[0].split('-')[0]
 
