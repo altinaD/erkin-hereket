@@ -44,7 +44,7 @@ const LanguageSwitcher = ({ isScrolled }: ScrolledType) => {
       </button>
 
       {isOpen && (
-        <ul className="absolute top-[45px] p-[10px] left-[50%] translate-x-[-50%] bg-white shadow-lg rounded-[8px] w-fit z-4">
+        <ul className="absolute top-[45px] p-[10px] left-[50%] translate-x-[-50%] bg-white shadow-lg rounded-[8px] w-fit z-100">
           {Object.keys(localeNames).map((locale) => (
             <li
               key={locale}

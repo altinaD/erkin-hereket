@@ -1,9 +1,11 @@
 'use client'
-import {  useTranslations } from "next-intl"
+import {  useLocale, useTranslations } from "next-intl"
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function FooterBottom() {
+    const locale = useLocale()
     const t = useTranslations('footer')
     const nav: string[] = t.raw("nav") as string[];
     const moveTop = () => {
@@ -19,16 +21,16 @@ export default function FooterBottom() {
                 <nav className="max-3xl:my-[80px] max-3xl:mx-auto max-xs:mt-[60px] max-xs:mb-[70px]">
                     <ul className="flex flex-row gap-[40px] justify-between max-xs:flex-col max-xs:gap-[50px]">
                         <li className="font-[GeistVariableVF] text-[#9E9FA0] text-[16px] font-[500]" >
-                            <Link href="/about">{nav[0]}</Link>
+                            <Link href={`/${locale}/about`}>{nav[0]}</Link>
                         </li>
                         <li className="font-[GeistVariableVF] text-[#9E9FA0] text-[16px] font-[500]" >
-                            <Link href="/services">{nav[1]}</Link>
+                            <Link href={`/${locale}/services`}>{nav[1]}</Link>
                         </li>
                         <li className="font-[GeistVariableVF] text-[#9E9FA0] text-[16px] font-[500]" >
-                            <Link href="/projects">{nav[2]}</Link>
+                            <Link href={`/${locale}/projects`}>{nav[2]}</Link>
                         </li>
                         <li className="font-[GeistVariableVF] text-[#9E9FA0] text-[16px] font-[500]" >
-                            <Link href="/contact">{nav[3]}</Link>
+                            <Link href={`/${locale}/contact`}>{nav[3]}</Link>
                         </li>
                     </ul>
                 </nav>
