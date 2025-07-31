@@ -22,26 +22,26 @@ export default function FooterTop(){
             <div className="space">
                 {isHomePage && (
                     <div className={styles['home-title']}>
-                        <span className={styles['home-num']}>4</span>
-                        <span className="ml-[20px]">{t('about')}</span>
+                        <span className={styles['home-num']}>5</span>
+                        <span className="ml-[20px]">{t('contact')}</span>
                     </div>
                 )}
                 <div className={styles['footer-top-content']}>
                     <div>
-                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[700] w-[80%] font-[GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
+                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[900] w-[80%] font-[GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
                             <div className={styles['address-box']}>
-                                <span className="font-[700] font-[GeistVariableVF]">{contacts[0]}:</span>
-                            <span className="font-[400] font-[GeistVariableVF]" >{footer("address")}</span>
+                                <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[0]}:</span>
+                                <span className="font-[400] text-[14px] font-[GeistVariableVF]" >{footer("address")}</span>
                             </div>
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
-                                    <span className="font-[700] font-[GeistVariableVF]">{contacts[1]}:</span>
-                                    <span className="font-[400] font-[GeistVariableVF] overflow-scroll whitespace-nowrap" >+993 64 64 66 79</span>
+                                    <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[1]}:</span>
+                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-scroll whitespace-nowrap" >+993 64 64 66 79</span>
                                 </div>
                                 <div className={styles['box']}>
-                                    <span className="font-[700] font-[GeistVariableVF]">{contacts[2]}:</span>
-                                    <span  className="font-[400] font-[GeistVariableVF] overflow-scroll whitespace-nowrap">erkinhereket@gmail.com</span>
+                                    <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[2]}:</span>
+                                    <span  className="font-[400] text-[14px] font-[GeistVariableVF] overflow-scroll whitespace-nowrap">erkinhereket@gmail.com</span>
                                 </div>
                             </div>
                         </div>

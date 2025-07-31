@@ -1,6 +1,6 @@
 'use client'
 import { useTranslations } from "next-intl"
-import RedirectButton from "../../../_components/redirectBtn"
+import RedirectButton from "../../_components/redirectBtn"
 import styles from "./style.module.css"
 import Footer from "@/_templates/footer/footer"
 import Image from "next/image"

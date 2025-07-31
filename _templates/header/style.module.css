@@ -98,6 +98,6 @@
     .mobile-links{
         margin: 100px auto;
         flex-direction: column;
-        align-items: baseline;
+        align-items: center;
     }
 }

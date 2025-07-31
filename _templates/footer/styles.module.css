@@ -4,8 +4,7 @@
     flex-direction: row;
     align-items: center;
     font-family: AkzidenzGroteskBoldExtended, GeistVariableVF;
-    font-weight: 700;
-    font-style: Bold;
+    font-weight: 900;
     font-size: 16px;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -14,6 +13,8 @@
 }
 
 .home-num {
+    font-weight: 900;
+    font-size: 16px;
     border-radius: 50%;
     border: 1px solid #FFFFFF;
     width: 46px;
@@ -91,7 +92,11 @@
 .small-boxes{
     display: flex;
     flex-direction: row;
-    gap: 15px;justify-content: space-between;
+    gap: 15px;
+    justify-content: space-between;
+    @media (max-width: 590px) {
+        flex-direction: column;
+    }
 }
 .box{
     width: 50%;
@@ -101,6 +106,9 @@
     flex-direction: column;
     border-radius: 8px;
     border: 1px solid #FFFFFF33;
+    @media (max-width: 590px) {
+        width: 100%;
+    }
 }
 
 .socials, .socials2{

@@ -5,9 +5,9 @@ import styles from "@/app/[locale]/home/style.module.css"
 import Footer from "@/_templates/footer/footer"
 import Image from "next/image"
 import Link from "next/link"
-import LearnMore from "@/app/[locale]/home/LearnMore"
+import LearnMore from "@/app/home/LearnMore"
 import Cranes from "@/_components/Cranes"
-import Services from "@/app/[locale]/home/Services"
+import Services from "@/app/home/Services"
 
 type projectType = {
     "title": string,

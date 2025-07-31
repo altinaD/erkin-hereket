@@ -12,6 +12,7 @@ export const { Link: NextIntlLink, redirect, useRouter, getPathname } =
     createNavigation(routing)
 
 export default function Header() {
+    const home = useTranslations()
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const navKeys = Object.keys(navConfig) as (keyof typeof navConfig)[]
     const t = useTranslations('nav')
@@ -32,7 +33,7 @@ export default function Header() {
     }, [])
 
     return (
-        <header className="fixed w-[100%] z-4 overflow-visible">
+        <header className="fixed w-[100%] z-4 overflow-visible" style={{overflow: 'visible'}}>
             <div className={`transition-bg duration-300 ease-in-out max z-3 relative max-2xl:!bg-white ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
                 <div className="space !overflow-x-clip">
                     <div className={` flex flex-row justify-between  py-[20px]  `}>
@@ -58,7 +59,7 @@ export default function Header() {
                             </svg>
                         </Link>
 
-                        <ul className={`flex  items-center flex-row gap-[40px] max-2xl:hidden`}>
+                        <ul className={`flex items-center flex-row gap-[40px] max-2xl:hidden`}>
                             {navKeys.map(key => {
                                 return (
                                     <li key={key}>
@@ -88,8 +89,8 @@ export default function Header() {
                                 <li onClick={() => setIsOpen(false)}>
                                     <Link
                                         href='/home'
-                                        className={`text-[#6C757D] text-[30px] text-left font-[400]`}
-                                    >Home</Link>
+                                        className={`text-[#6C757D] text-[30px] text-left font-[500]`}
+                                    >{home("navHome")}</Link>
                                 </li>
                                 {navKeys.map(key => {
                                     const { path } = navConfig[key]
@@ -97,7 +98,7 @@ export default function Header() {
                                         <li key={key} onClick={() => setIsOpen(false)}>
                                             <Link
                                                 href={path}
-                                                className={`text-[#6C757D] text-[30px] text-left font-medium font-[GeistVariableVF]`}
+                                                className={`text-[#6C757D] text-[30px] text-left font-[500] font-[GeistVariableVF]`}
                                             >
                                                 {t(key)}
                                             </Link>
