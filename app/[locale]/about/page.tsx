@@ -13,7 +13,7 @@ export default function Page() {
             <div className="hero-space">
                 <div className="w-[100%] h-[50vh] bg-center bg-cover relative" style={{ backgroundImage: `url(/images/about/hero.jpg)` }}>
                     <div className="absolute top-0 left-0 w-[100%] h-[50vh]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}>
-                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217]"></div>
+                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217] max-xs:hidden"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-0 bg-[#D4421733]"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-[150px]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
                         <div className="absolute w-[150px] h-[150px] right-[150px] top-0 bg-[#FFFFFF1A]"></div>
@@ -30,7 +30,7 @@ export default function Page() {
             <div className="space relative">
                 <Image className="absolute top-[-90px] right-0 z-1 max-xs:hidden" width={324} height={538} alt="logo" src="/images/home/ErkinHereketTransparent.png" />
                 <div className="mt-[80px] max-xs:mt-[60px] relative z-2">
-                    <svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" className="max-xs:w-[100%] max-xs:h-auto" width="496" height="152" viewBox="0 0 496 152">
+                    <svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" className="max-xs:w-[75%] max-xs:h-auto" width="496" height="152" viewBox="0 0 496 152">
                         <path className="cls-3 !fill-[#D44217]" d="M115.03575,57.48902V11.70655h48.315l.00271,10.98012h-31.90985l-.00271,6.78978h29.50395v10.30598h-29.50395l-.05022,6.77782h32.4867l.05022,10.92876h-48.89185Z"/>
                         <path className="cls-3 !fill-[#D44217]" d="M392.85985,115.11809v-45.78247h48.315l.00271,10.98012h-31.90985l-.00271,6.78978h29.50395v10.30598h-29.50395l-.05022,6.77782h32.4867l.05022,10.92876h-48.89185Z"/>
                         <path className="cls-3 !fill-[#D44217]" d="M282.63162,115.15827v-45.78247h48.315l.00271,10.98012h-31.90985l-.00271,6.78978h29.50395v10.30598h-29.50395l-.05022,6.77782h32.4867l.05022,10.92876h-48.89185Z"/>
@@ -58,35 +58,25 @@ export default function Page() {
             <div className="space">
                 <Counters/>
                 <Experience title={about("experienceTitle")} desc={about("experienceDesc")} />
-                <Image width={1280} height={380} alt="crane" src="/images/about/1.jpg" />
+                <Image width={1280} height={380} className="max-xs:object-cover max-xs:h-[200px]" alt="crane" src="/images/about/1.jpg" />
                 <Experience title={about("devPeriodTitle")} desc={about("devPeriodDesc")} />
-                <Image className="mx-auto w-[100%] relative" width={435} height={846} alt="constructure" src="/images/about/2.png" />
+                <Image className="mx-auto w-[100%] relative max-xs:object-cover max-xs:h-[200px]" width={435} height={846} alt="constructure" src="/images/about/2.png" />
                 <Experience title={about("missionTitle")} desc={about("missionDesc")} />
-                <Image width={1280} height={380} alt="flags" src="/images/about/3.jpg" />
+                <Image width={1280} height={380} className="max-xs:object-cover max-xs:h-[200px]" alt="flags" src="/images/about/3.jpg" />
             </div>
             <div className="relative mt-[130px] max-2xl:mt-[100px] max-xs:mt-[60px] bg-center bg-cover w-[100%] h-[100vh]" style={{backgroundImage: `url(/images/about/4.jpg)` }}>
                 <div className="absolute w-[100%] bottom-[66px] max-xs:bottom-[30px]">
                     <div className="space relative grid grid-cols-[6fr_6fr] gap-[20px] max-2xl:grid-cols-[1fr]">
                         <div className="bg-[#FFFFFF] p-[20px]">
-                            {/* <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1> */}
-                            <h1 className="text-[26px] font-black font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1>
-                            {/* <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
-                                red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
-                                grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
-                            })}</p> */}
-                            <p className="font-[GeistVariableVF] font-bold text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
+                            <h1 className="text-[26px] font-[800] font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("advTitle")}</h1>
+                            <p className="font-[GeistVariableVF] font-[700] text-[20px] uppercase max-xs:text-[18px]">{about.rich("advDesc", {
                                 red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
                                 grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
                             })}</p>
                         </div>
                         <div className="bg-[#FFFFFF] p-[20px]">
-                            {/* <h1 className="text-[26px] font-[AkzidenzGroteskBoldExtended, GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1> */}
-                            <h1 className="text-[26px] font-black font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1>
-                              {/* <p className="font-[RidleyGroteskBold, GeistVariableVF] text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
-                                red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
-                                grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
-                            })}</p> */}
-                            <p className="font-[GeistVariableVF] font-bold text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
+                            <h1 className="text-[26px] font-[800] font-[GeistVariableVF] mb-[20px] max-xs:text-[20px] max-xs:mb-[10px]">{about("goalsTitle")}</h1>
+                            <p className="font-[GeistVariableVF] font-[700] text-[20px] uppercase max-xs:text-[18px]">{about.rich("goalsDesc", {
                                 red: (chunks) => <span className="text-[#D44217]">{chunks}</span>,
                                 grey: (chunks) => <span className="text-[#6F6F6F]">{chunks}</span>
                             })}</p>

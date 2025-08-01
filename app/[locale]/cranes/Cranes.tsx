@@ -22,8 +22,7 @@ export default function Cranes(){
                     </div>
                     <div className="relative h-[100%]" style={{ background: 'linear-gradient(180deg, #F1F1F1 0%, #EEEEEE 100%)' }}>
                         <div className="px-[20px] py-[27px] w-[100%]">
-                            {/* <h1 className="text-[#D44217] text-[20px] font-[AkzidenzGroteskMediumExtended, GeistVariableVF] text-center mb-[20px] ">{crane.title}</h1> */}
-                            <h1 className="text-[#D44217] text-[20px] font-[900] font-[GeistVariableVF] text-center mb-[20px] ">{crane.title}</h1>
+                            <h1 className="text-[#D44217] text-[20px] font-[800] font-[GeistVariableVF] text-center mb-[20px] ">{crane.title}</h1>
                             <div className="py-[10px] flex flex-row justify-between border-[#252525] border-b-[0.5px] w-[100%]"> 
                                  <p className="text-[14px] font-[400] font-[GeistVariableVF]">
                                    <svg className="inline mr-[5px]" width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,8 +30,7 @@ export default function Cranes(){
                                     </svg>
                                     {crane.maxLift[0]}
                                 </p>
-                                 <p className="font-[GeistVariableVF] font-[900] text-[15px]">{crane.maxLift[1]}</p>
-                                 {/* <p className="font-[AkzidenzGroteskMediumExtended, GeistVariableVF] text-[15px]">{crane.maxLift[1]}</p> */}
+                                 <p className="font-[GeistVariableVF] font-[800] text-[15px]">{crane.maxLift[1]}</p>
                             </div>
                             <div className="py-[10px] flex flex-row justify-between border-[#252525] border-b-[0.5px] w-[100%]">
                                 <p className="text-[14px] font-[400] font-[GeistVariableVF]">
@@ -41,8 +39,7 @@ export default function Cranes(){
                                     </svg>
                                     {crane.boomLen[0]}
                                 </p>
-                                {/* <p className="font-[AkzidenzGroteskMediumExtended, GeistVariableVF] text-[15px]">{crane.boomLen[1]}</p> */}
-                                <p className="font-[GeistVariableVF] font-[900] text-[15px]">{crane.boomLen[1]}</p>
+                                <p className="font-[GeistVariableVF] font-[800] text-[15px]">{crane.boomLen[1]}</p>
                             </div>
                             <div className="py-[10px] flex flex-row justify-between border-[#252525] border-b-[0.5px] w-[100%]">
                                 <p className="text-[14px] font-[400] font-[GeistVariableVF]">
@@ -51,8 +48,7 @@ export default function Cranes(){
                                     </svg>
                                     {crane.jibExt[0]}
                                 </p>
-                                {/* <p className="font-[AkzidenzGroteskMediumExtended, GeistVariableVF] text-[15px]">{crane.jibExt[1]}</p> */}
-                                <p className="font-[GeistVariableVF] font-[900] text-[15px]">{crane.jibExt[1]}</p>
+                                <p className="font-[GeistVariableVF] font-[800] text-[15px]">{crane.jibExt[1]}</p>
                             </div>
                             </div>
                     </div>

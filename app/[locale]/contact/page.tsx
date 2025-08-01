@@ -1,16 +1,17 @@
 'use client'
 import { useTranslations } from "next-intl"
-import Service from "./Service"
-import Footer from "@/_templates/footer/footer"
+import Contact from "@/_templates/footer/Contact"
+import FooterBottom from "@/_templates/footer/footerBottom"
+import Map from "./map"
 
 export default function Page() {
     const nav = useTranslations("nav")
     return (
         <>
             <div className="hero-space">
-                <div className="w-[100%] h-[50vh] bg-center bg-cover relative" style={{ backgroundImage: `url(/images/services/hero.jpg)` }}>
+                <div className="w-[100%] h-[50vh] bg-center bg-cover relative" style={{ backgroundImage: `url(/images/contact/hero.jpg)` }}>
                     <div className="absolute top-0 left-0 w-[100%] h-[50vh]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}>
-                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217]"></div>
+                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217] max-xs:hidden"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-0 bg-[#D4421733]"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-[150px]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
                         <div className="absolute w-[150px] h-[150px] right-[150px] top-0 bg-[#FFFFFF1A]"></div>
@@ -19,13 +20,18 @@ export default function Page() {
                     </div>
                     <div className="space">
                         <div className="hero-content hero-content2">
-                            <h1 className="hero-title">{nav("services")}</h1>
+                            <h1 className="hero-title">{nav("contact")}</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            <Service />
-            <Footer />
+            <Contact />
+            <div className="space ">
+                <div className="h-[40vh] bg-[#ffffff01] border-[#D44217] border-1 rounded-[17px] mb-[80px] max-xs:mt-[70px] max-xs:mb-[40px]">
+                    <Map />
+                </div>
+            </div>
+            <FooterBottom />
         </>
     )
 }

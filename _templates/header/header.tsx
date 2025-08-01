@@ -1,7 +1,8 @@
 'use client'
 import { useTranslations } from "next-intl"
 import { navConfig } from './nav'
-import { Link } from "@/i18n/navigation"
+// import { Link } from "@/i18n/navigation"
+import Link from "next/link"
 import { createNavigation } from 'next-intl/navigation'
 import { routing } from '@/i18n/routing'
 import { useEffect, useState } from "react"
@@ -31,7 +32,7 @@ export default function Header() {
             window.removeEventListener("scroll", handleScroll)
         }
     }, [])
-
+    
     return (
         <header className="fixed w-[100%] z-4 overflow-visible" style={{overflow: 'visible'}}>
             <div className={`transition-bg duration-300 ease-in-out max z-3 relative max-2xl:!bg-white ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
@@ -56,15 +57,16 @@ export default function Header() {
                                     <path className={`cls-3 max-2xl:!fill-[#D44217] ${isScrolled ? 'transition-fill duration-300 !fill-[#D44217]' : 'fill-[#fff]'}`} d="M89.77479.02936c-6.75448-.04483-13.50127.01547-20.25575-.02936,6.75448,5.23384,13.50127,10.60431,20.25575,15.83765V.02936Z" />
                                 </g>
                                 <text className={`cls-4 max-2xl:!fill-[#D44217] ${isScrolled ? 'transition-fill duration-300 !fill-[#D44217]' : 'fill-[#fff]'}`} transform="translate(113.90991 139.03038)"><tspan className="cls-17" x="0" y="0">H</tspan><tspan className="cls-10" x="24.30078" y="0">O</tspan><tspan className="cls-9" x="48.97949" y="0">J</tspan><tspan className="cls-6" x="71.03223" y="0">A</tspan><tspan className="cls-1" x="95.10156" y="0">L</tspan><tspan className="cls-7" x="115.31641" y="0">Y</tspan><tspan className="cls-11" x="138.39551" y="0">K </tspan><tspan className="cls-14" x="178.17383" y="0">J</tspan><tspan className="cls-5" x="200.83789" y="0">E</tspan><tspan className="cls-17" x="223.54297" y="0">M</tspan><tspan className="cls-12" x="249.42871" y="0">G</tspan><tspan className="cls-16" x="273.01855" y="0">Y</tspan><tspan className="cls-13" x="296.61621" y="0">Ý</tspan><tspan className="cls-8" x="319.67773" y="0">E</tspan><tspan className="cls-2" x="342.37012" y="0">T</tspan><tspan className="cls-15" x="364.6084" y="0">I</tspan></text>
-                            </svg>
+                </svg>
                         </Link>
 
                         <ul className={`flex items-center flex-row gap-[40px] max-2xl:hidden`}>
-                            {navKeys.map(key => {
-                                return (
-                                    <li key={key}>
-                                        <Link
-                                            href={key}
+                {navKeys.map(key => {
+                                const {path} = navConfig[key]
+                    return (
+                        <li key={key}>
+                            <Link
+                                            href={path.replace(/^\//, '')}
                                             className={`transition-text duration-300 text-nowrap cursor-pointer font-[GeistVariableVF] text-[16px] font-medium ${isScrolled ? 'text-[#212529]' : 'text-[#FFFFFF]'}`}
                                         >
                                             {t(key)}
@@ -77,9 +79,9 @@ export default function Header() {
                         <div className="flex flex-row gap-[20px] ">
                             <LanguageSwitcher isScrolled={isScrolled} />
                             <div className={`${styles['hamburger-icon']} ${isOpen ? styles.fix : ''}`} onClick={() => setIsOpen(!isOpen)} >
-                                <div className={`${styles['icon-1']} ${isOpen ? styles.a : ''}`} ></div>
-                                <div className={`${styles['icon-2']} ${isOpen ? styles.c : ''}`} ></div>
-                                <div className={`${styles['icon-3']} ${isOpen ? styles.b : ''}`} ></div>
+                                <div className={`${styles['icon-1']} ${isOpen ? styles.a : ''}`}></div>
+                                <div className={`${styles['icon-2']} ${isOpen ? styles.c : ''}`}></div>
+                                <div className={`${styles['icon-3']} ${isOpen ? styles.b : ''}`}></div>
                                 <div className={styles.clear}></div>
                             </div>
                         </div>
@@ -88,7 +90,7 @@ export default function Header() {
                             <ul className={`z-11 flex items-center flex-row gap-[40px] w-fit  ${styles['mobile-links']}`}>
                                 <li onClick={() => setIsOpen(false)}>
                                     <Link
-                                        href='/home'
+                                        href='/'
                                         className={`text-[#6C757D] text-[30px] text-left font-[500]`}
                                     >{home("navHome")}</Link>
                                 </li>
@@ -99,13 +101,13 @@ export default function Header() {
                                             <Link
                                                 href={path}
                                                 className={`text-[#6C757D] text-[30px] text-left font-[500] font-[GeistVariableVF]`}
-                                            >
-                                                {t(key)}
-                                            </Link>
-                                        </li>
-                                    )
-                                })}
-                            </ul>
+                            >
+                                {t(key)}
+                            </Link>
+                        </li>
+                    )
+                })}
+            </ul>
                         </div>
                     </div>
                 </div>

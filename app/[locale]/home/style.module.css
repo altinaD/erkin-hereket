@@ -10,6 +10,8 @@
     font-family: GeistVariableVF; 
     border-top-left-radius: 21px;
     border-top-right-radius: 21px;
+    font-size: 12px;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -31,8 +33,7 @@
     align-items: center;
     /* font-family: AkzidenzGroteskBoldExtended, GeistVariableVF; */
     font-family: GeistVariableVF;
-    font-weight: 700;
-    font-style: Bold;
+    font-weight: 900;
     font-size: 16px;
     letter-spacing: 0%;
     text-transform: uppercase;
@@ -47,6 +48,7 @@
     /* font-family: AkzidenzGroteskBoldExtended, GeistVariableVF; */
     font-family:  GeistVariableVF;
     font-weight: 900;
+    font-size: 16px;
     height: 46px;
     position: relative;
     display: block;
@@ -84,6 +86,7 @@
 
     @media (max-width: 835px) {
         margin-top: 40px;
+        grid-template-columns: 1fr ;
     }
 
     @media (max-width: 590px) {
@@ -124,8 +127,11 @@
         }
     }
     @media (max-width: 835px) {
-        min-height: 300px !important;
+        min-height: 400px !important;
         cursor: auto;
+    }
+    @media (max-width: 590px) {
+        min-height: 280px !important;
     }
 
     .index-container{
@@ -144,8 +150,7 @@
         font-size: 30px;
         font-family: GeistVariableVF;
         /* font-family: RidleyGroteskBold; */
-        font-weight: bold;
-        font-style: italic;
+        font-weight: 900;
         color: #D44217;
         transition: color 0.3s ease;
         @media (max-width: 590px) {
@@ -158,10 +163,13 @@
         padding-left: 66px;
         font-size: 28px;
         font-family: GeistVariableVF;
-        font-weight: 800;
+        font-weight: 900;
         /* font-family: RidleyGroteskBold, GeistVariableVF; */
         color: #FFFFFF;
         overflow: auto;
+        @media (max-width: 835px) {
+            font-size: 28px;
+        }
         @media (max-width: 590px) {
             font-size: 20px;
             bottom: 20px;

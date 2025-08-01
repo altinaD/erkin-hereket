@@ -1,46 +1,10 @@
-import Header from "@/_templates/header/header";
-import type { Metadata } from "next";
-import "./global.css";
-import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
-import {
-  // AkzidenzGroteskBoldExtended,
-  // AkzidenzGroteskMediumExtended,
-  // RidleyGroteskBold,
-  // RidleyGroteskMedium,
-  // RidleyGroteskRegular,
-  // RubikLight,
-  // RubikMedium,
-  // RubikRegular,
-  GeistVariableVF
-} from "@/lib/fonts";
+import type { ReactNode } from 'react';
+import { GeistVariableVF } from "@/lib/fonts";
 
-export const metadata: Metadata = {
-  title: "Erkin hereket",
-  description: "Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
-  icons: {
-    icon: "/favicon.ico"
-  }
-};
-
-export default async function RootLayout(props: {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}) {
-  const { children, params } = props;
-  const { locale } = await params;
-  const messages = await getMessages({ locale });
-
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang={locale}>
-      <body className={`
-        ${GeistVariableVF.className} 
-      `}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          {children}
-        </NextIntlClientProvider>
-      </body>
+    <html lang="en">
+      <body  className={GeistVariableVF.className}>{children}</body>
     </html>
   );
 }
