@@ -29,7 +29,7 @@ export default function Home() {
             <div className="hero-space w-[100%] h-[100vh]">
                 <div className="w-[100%] h-[100%] bg-center bg-cover relative" style={{ backgroundImage: `url(/images/home/1.jpg)` }}>
                     <div className="absolute top-0 left-0 w-[100%] h-[100%]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}>
-                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217]"></div>
+                        <div className="absolute w-[150px] h-[150px] right-[150px] top-[150px] bg-[#D44217] max-xs:hidden"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-0 bg-[#D4421733]"></div>
                         <div className="absolute w-[150px] h-[150px] right-0 top-[150px]" style={{ background: 'linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.5) 100%)' }}></div>
                         <div className="absolute w-[150px] h-[150px] right-[150px] top-0 bg-[#FFFFFF1A]"></div>

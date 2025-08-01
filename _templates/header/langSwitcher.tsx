@@ -38,28 +38,30 @@ export default function LangSwitcher({isScrolled}: ScrolledType) {
     setCurrentLocale(locales.find(l => l.code === locale)?.label || locales[0].label);
   };
 
+  const dropdown = (
+     <ul className="absolute top-[45px] p-[10px] left-[50%] translate-x-[-50%] bg-white shadow-lg rounded-[8px] w-fit z-[4]">
+        {locales.map((locale) => (
+          <li 
+            role="menuitem"
+            key={locale.code}
+            onClick={() => setLocale(locale.code)}
+            className="flex px-[20px] py-2 hover:bg-gray-100 cursor-pointer"
+            >
+              <span className="text-sm">{locale.label}</span>
+          </li>
+        ))}
+      </ul>
+  );
+
   return (
     <div className="relative">
       <button 
+        aria-expanded={isOpen}
         onClick={() => setIsOpen(!isOpen)}
         className={`transition-border duration-300 border-1 flex justify-between items-center  text-[#D44217] font-500 bg-[#FFFFFF] rounded-[100px] py-[8px] px-[25px] max-2xl:!border-[#9E9FA0] ${isScrolled ? 'border-[#9E9FA0]' : 'border-[#FFFFFF]'}`}>
           <span>{currentLocale}</span>
       </button>
-      {isOpen && (
-        <ul role="menu" className="absolute top-[45px] p-[10px] left-[50%] translate-x-[-50%] bg-white shadow-lg rounded-[8px] w-fit z-[4]">
-          {locales.map((locale) => (
-            <li 
-              role="menuitem"
-              key={locale.code}
-              onClick={() => setLocale(locale.code)}
-              className="flex px-[20px] py-2 hover:bg-gray-100 cursor-pointer"
-              >
-                <span className="text-sm">{locale.label}</span>
-            </li>
-          ))}
-        </ul>
-      )}
-
+      {isOpen && dropdown}
     </div>
   );
 }

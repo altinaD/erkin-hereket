@@ -117,6 +117,9 @@
 .change-order:nth-of-type(2n) .order-text{
     order: 3;
 }
+.change-order:nth-of-type(2n) .change-grid{
+  grid-template-columns: 6fr 1fr 4fr;
+}
 .change-order:nth-of-type(2n) .order-img{
     order: 1;
 }
