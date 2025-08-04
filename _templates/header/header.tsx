@@ -60,7 +60,7 @@ export default function Header() {
                             </svg>
                         </Link>
 
-                        <ul className={`flex items-center flex-row gap-[40px] max-2xl:hidden`}>
+                        <ul className={`flex items-center flex-row gap-[40px] max-3xl:hidden`}>
                             {navKeys.map(key => {
                                 const { path } = navConfig[key]
                                 return (

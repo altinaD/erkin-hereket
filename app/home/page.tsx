@@ -93,7 +93,7 @@ export default function Home() {
                     </div>
                     <Cranes />
                     <div className="mt-[40px] max-xs:mt-[20px] flex justify-center w-[100%]">
-                        <RedirectButton caption={home("seeAll")} href="/cranes" />
+                        <RedirectButton caption={home("seeAll")} href={`/cranes`} />
                     </div>
                 </div>
             </div>

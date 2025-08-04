@@ -10,10 +10,10 @@
     "footer": {
         "contactBox": ["Name", "Last name", "Email", "Your message"],
         "contacts": ["Address", "Phone number", "E-address"],
-        "address": "174 Atamyrat Nyyazow Avenue, Bagtyýarlyk District, Ashgabat, Turkmenistan",
+        "address": "G. Kulyýew (2127) “Begenchli” Floor 3",
         "nav": ["About us", "Services", "Projects", "Contact us"],
         "copyright": "2025  Erkin Hereket. All rights reserved.",
-        "submit": "Submit",
+        "submit": "Submit", 
         "loading": "Sending"
     },
     "errorMsg": "Please fill all inputs",
@@ -64,49 +64,49 @@
     "cranes":[
         {
             "title": "XCMG QY25K-1",
-            "maxLift": ["Max lifting capacity:", "25 tons"],
+            "maxLift": ["Max lifting capacity:", "25 t"],
             "boomLen": ["Boom length:", "39.5 m"],
             "jibExt": ["Jib extension length:", "8.3 m"]
         },
         {
             "title": "FAUN RTF-30",
-            "maxLift": ["Max lifting capacity:", "30 tons"],
+            "maxLift": ["Max lifting capacity:", "30 t"],
             "boomLen": ["Boom length:", "28 m"],
             "jibExt": ["Jib extension length:", "8.0 m"]
         },
         {
             "title": "KATO KA400E",
-            "maxLift": ["Max lifting capacity:", "40 tons"],
+            "maxLift": ["Max lifting capacity:", "40 t"],
             "boomLen": ["Boom length:", "34.4 m"],
             "jibExt": ["Jib extension length:", "9.2 m"]
         },
         {
             "title": "XCMG QY50KA",
-            "maxLift": ["Max lifting capacity:", "50 tons"],
+            "maxLift": ["Max lifting capacity:", "50 t"],
             "boomLen": ["Boom length:", "42.7 m"],
             "jibExt": ["Jib extension length:", "15.0 m"]
         },
         {
             "title": "FAUN ATF60-4",
-            "maxLift": ["Max lifting capacity:", "60 tons"],
+            "maxLift": ["Max lifting capacity:", "60 t"],
             "boomLen": ["Boom length:", "40.2 m"],
             "jibExt": ["Jib extension length:", "16.0 m"]
         },
         {
             "title": "LIEBHERR LTM1070/1",
-            "maxLift": ["Max lifting capacity:", "70 tons"],
+            "maxLift": ["Max lifting capacity:", "70 t"],
             "boomLen": ["Boom length:", "42.0 m"],
             "jibExt": ["Jib extension length:", "18.0 m"]
         },
         {
             "title": "LIEBHERR LTM1100-4.2",
-            "maxLift": ["Max lifting capacity:", "100 tons"],
-            "boomLen": ["Boom length:", "60 m"],
+            "maxLift": ["Max lifting capacity:", "100 t"],
+            "boomLen": ["Boom length:", "60.0 m"],
             "jibExt": ["Jib extension length:", "19.0 m"]
         },
         {
             "title": "LIEBHERR LTM1300/1",
-            "maxLift": ["Max lifting capacity:", "300 tons"],
+            "maxLift": ["Max lifting capacity:", "300 t"],
             "boomLen": ["Boom length:", "60 m"],
             "jibExt": ["Jib extension length:", "42.0 m"]
         }

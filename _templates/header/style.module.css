@@ -4,8 +4,11 @@
 .hamburger-icon.fix{
     position: fixed;
     top: 20px;
-    right: 40px;
-    @media (max-width: 835px) {
+    right: 80px;
+    @media (max-width: 835px){
+        right: 40px;
+    }
+    @media (max-width: 590px) {
         right: 16px;
     }
 }
@@ -31,7 +34,7 @@
     animation-delay: 250ms;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1024px) {
     .hamburger-icon{
         cursor: pointer;
         position: relative;
@@ -43,7 +46,8 @@
         cursor: pointer;
         border-radius: 8px;
         transition: transform 0.2s ease-in-out;
-        background: rgba(255, 255, 255, 0.2);
+        /* background: rgba(255, 255, 255, 0.2); */
+        background: #FFFFFF;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -86,13 +90,13 @@
     backdrop-filter: blur(50px);
     padding: 2rem;
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
     .mobile-menu{
         display: none;
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1024px) {
     .mobile-links{
         margin: 100px auto;
         flex-direction: column;

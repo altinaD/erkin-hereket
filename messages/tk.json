@@ -10,7 +10,7 @@
   "footer": {
       "contactBox": ["Ady", "Familiýasy", "E-poçta", "Habaryňyz"],
       "contacts": ["Salgymyz", "Telefon", "Email"],
-      "address": "Aşgabat şäheri, Bagtyýarlyk etraby, Türkmenistanyň Gahrymany Atamyrat Nyýazow şaýoly, 174-nji jaý.",
+      "address": "G. Kulyýew (2127) “Begençli” 3-nji gat",
       "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
       "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan.",
       "submit": "Ugrat",
@@ -42,7 +42,7 @@
   "services": [
     {
       "title": "Awtokranlary operatory bilen birlikde kärendesine bermek",
-      "desc": "Kärhanamyz dürli ýük göterijilikli (25–300 tonna) awtokranlaryny köp ýyllyk iş tejribeli ussat operatorlar bilen birlikde kärendesine berýär. Bu hyzmatlaryň çäklerinde biz müşderileriň wagtyny we serişdelerini tygşytlamaga ýardam edýäris.",
+      "desc": "Kärhanamyz dürli ýük göterijilikli (25–300 t) awtokranlaryny köp ýyllyk iş tejribeli ussat operatorlar bilen birlikde kärendesine berýär. Bu hyzmatlaryň çäklerinde biz müşderileriň wagtyny we serişdelerini tygşytlamaga ýardam edýäris.",
       "expandedHeight": 400
     },
     {
@@ -64,50 +64,50 @@
   "cranes":[
       {
         "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "25 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "25 t"],
         "boomLen": ["Okunyň uzynlygy:", "39.5 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.3 m"]
       },
       {
         "title": "FAUN RTF-30",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "30 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "30 t"],
         "boomLen": ["Okunyň uzynlygy:", "28 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.0 m"]
       },
       {
         "title": "KATO KA400E",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "40 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "40 t"],
         "boomLen": ["Okunyň uzynlygy:", "34.4 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "9.2 m"]
       },
       {
         "title": "XCMG QY50KA",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "50 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "50 t"],
         "boomLen": ["Okunyň uzynlygy:", "42.7 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "15.0 m"]
       },
       {
         "title": "FAUN ATF60-4",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "60 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "60 t"],
         "boomLen": ["Okunyň uzynlygy:", "40.2 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "16.0 m"]
       },
       {
         "title": "LIEBHERR LTM1070/1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "70 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "70 t"],
         "boomLen": ["Okunyň uzynlygy:", "42.0 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "18.0 m"]
       },
       {
         "title": "LIEBHERR LTM1100-4.2",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "100 tonna"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "100 t"],
         "boomLen": ["Okunyň uzynlygy:", "60.0 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "19.0 m"]
       },
       {
         "title": "LIEBHERR LTM1300/1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "300 tonna"],
-        "boomLen": ["Okunyň uzynlygy:", "60 m"],
+        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "300 t"],
+        "boomLen": ["Okunyň uzynlygy:", "60.0 m"],
         "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "42.0 m"]
       }
   ],
