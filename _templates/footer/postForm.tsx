@@ -81,11 +81,11 @@ export default function PostForm({name, lastName, email, message}: postType) {
 
         <form onSubmit={handleSubmit} className={styles['form']}>
             <div className="w-[100%] flex flex-row gap-[20px] max-xs:flex-col max-xs:gap-[0]">
-                <div className="w-[50%] max-xs:w-[100%] nowrap mb-[20px]">
+                <div className="w-[50%] max-xs:w-[100%] flex flex-col nowrap mb-[20px]">
                     <label className="font-[GeistVariableVF] ml-[10px] mb-[5px] text-[#FFFFFF] text-[14px] font-[800]">{name}</label>
                     <input onChange={(e) => setFormData((prev) => ({ ...prev, name: e.target.value }))} placeholder="Jon" value={formData.name} className={`${styles['small-input']} font-[GeistVariableVF] font-[400] text-[14px] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]`} type="text" />
                 </div>
-                <div className="w-[50%] max-xs:w-[100%] nowrap mb-[20px]">
+                <div className="w-[50%] max-xs:w-[100%] flex flex-col nowrap mb-[20px]">
                     <label className="font-[GeistVariableVF] ml-[10px] mb-[5px] text-[#FFFFFF] text-[14px] font-[800]">{lastName}</label>
                     <input onChange={(e) => setFormData((prev) => ({ ...prev, lastName: e.target.value }))}  value={formData.lastName} placeholder="Doe" className={`${styles['small-input']} font-[GeistVariableVF] font-[400] text-[14px] placeholder-[#FFFFFF54] bg-[#E45A31] py-[16px] px-[20px]`} type="text" />
                 </div>
