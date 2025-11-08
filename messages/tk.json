@@ -1,33 +1,52 @@
 {
   "navHome": "Baş sahypa",
   "nav": {
-      "about": "Biz barada",
-      "services": "Hyzmatlar",
-      "cranes": "Kranlarymyz",
-      "projects": "Taslamalar",
-      "contact": "Habarlaşyň"
+    "about": "Biz barada",
+    "services": "Hyzmatlar",
+    "cranes": "Kranlarymyz",
+    "projects": "Taslamalar",
+    "contact": "Habarlaşyň"
   },
   "footer": {
-      "contactBox": ["Ady", "Familiýasy", "E-poçta", "Habaryňyz"],
-      "contacts": ["Salgymyz", "Telefon", "Email"],
-      "address": "G. Kulyýew (2127) “Begençli” 3-nji gat",
-      "nav": ["Biz barada", "Hyzmatlar", "Taslamalar", "Habarlaşyň"],
-      "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan.",
-      "submit": "Ugrat",
-      "loading": "Ugradylýar"
+    "contactBox": [
+      "Ady",
+      "Familiýasy",
+      "E-poçta",
+      "Habaryňyz"
+    ],
+    "contacts": [
+      "Salgymyz",
+      "Telefon",
+      "Email"
+    ],
+    "address": "G. Kulyýew (2127) “Begençli” 3-nji gat",
+    "nav": [
+      "Biz barada",
+      "Hyzmatlar",
+      "Taslamalar",
+      "Habarlaşyň"
+    ],
+    "copyright": "2025 Erkin Hereket. Ähli hukuklar goralan.",
+    "submit": "Ugrat",
+    "loading": "Ugradylýar"
   },
   "errorMsg": "Hemme meýdançalary dolduryň",
   "successMsg": "Hatyňyz üstünlikli iberildi",
   "home": {
     "learnMoreBTn": "Has giňişleýin",
     "seeAll": "Ählisini gör",
-    "heroTitle": "Ýurdymyzy bilelikde ýokary galdyraýly",
+    "heroTitle": "Erkin Hereket - Siziň üçin çalt we ygtybarly çözgüt!",
     "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
     "srollDown": "Aşak aýlaň"
   },
   "about": {
     "aboutTitle": "“Erkin hereket” hojalyk jemgyýeti gurluşyk we senagat pudagynda ýokary hilli tehniki hyzmatlary hödürleýän kärhanadyr. Dürli gurluşyk işlerinde 20 ýyldan gowrak tejribä eýe bolan kärhanamyz ýük göteriji awtokranlarynyň kärendesi boýunça öňdebaryjy we elýeterli hyzmatlary ýerine ýetirýär.",
-    "counterCaptions": ["Kranlar", "Taslamalar", "Kanagatlanan müşderiler", "Iş tejribesi (ýyl)"],
+    "counterCaptions": [
+      "Kranlar",
+      "Taslamalar",
+      "Kanagatlanan müşderiler",
+      "Iş tejribesi (ýyl)"
+    ],
     "experienceTitle": "Tejribämiz",
     "experienceDesc": "Kärhanamyz ýokary göterijilikli awtokranlarynyň kömegi bilen iri gurluşyk taslamalarynda üstünlikli işleri alyp bardy. Müşderilerimiz bilen köp ýyllaryň dowamynda hyzmatdaşlyk edip, birnäçe senagat, gurluşyk we önümçilik taslamalaryny üstünlikli ýerine ýetirdik.",
     "devPeriodTitle": "Ösüş döwrümiz",
@@ -61,55 +80,127 @@
       "expandedHeight": 400
     }
   ],
-  "cranes":[
-      {
-        "title": "XCMG QY25K-1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "25 t"],
-        "boomLen": ["Okunyň uzynlygy:", "39.5 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.3 m"]
-      },
-      {
-        "title": "FAUN RTF-30",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "30 t"],
-        "boomLen": ["Okunyň uzynlygy:", "28 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "8.0 m"]
-      },
-      {
-        "title": "KATO KA400E",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "40 t"],
-        "boomLen": ["Okunyň uzynlygy:", "34.4 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "9.2 m"]
-      },
-      {
-        "title": "XCMG QY50KA",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "50 t"],
-        "boomLen": ["Okunyň uzynlygy:", "42.7 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "15.0 m"]
-      },
-      {
-        "title": "FAUN ATF60-4",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "60 t"],
-        "boomLen": ["Okunyň uzynlygy:", "40.2 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "16.0 m"]
-      },
-      {
-        "title": "LIEBHERR LTM1070/1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "70 t"],
-        "boomLen": ["Okunyň uzynlygy:", "42.0 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "18.0 m"]
-      },
-      {
-        "title": "LIEBHERR LTM1100-4.2",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "100 t"],
-        "boomLen": ["Okunyň uzynlygy:", "60.0 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "19.0 m"]
-      },
-      {
-        "title": "LIEBHERR LTM1300/1",
-        "maxLift": ["Iň ýokary ýük göterijilik ukyby:", "300 t"],
-        "boomLen": ["Okunyň uzynlygy:", "60.0 m"],
-        "jibExt": ["Okunyň ujundaky goşmaça okuň uzynlygy:", "42.0 m"]
-      }
+  "cranes": [
+    {
+      "title": "XCMG QY25K-1",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "25 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "39.5 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "8.3 m"
+      ]
+    },
+    {
+      "title": "FAUN RTF-30",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "30 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "28 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "8.0 m"
+      ]
+    },
+    {
+      "title": "KATO KA400E",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "40 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "34.4 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "9.2 m"
+      ]
+    },
+    {
+      "title": "XCMG QY50KA",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "50 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "42.7 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "15.0 m"
+      ]
+    },
+    {
+      "title": "FAUN ATF60-4",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "60 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "40.2 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "16.0 m"
+      ]
+    },
+    {
+      "title": "LIEBHERR LTM1070/1",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "70 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "42.0 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "18.0 m"
+      ]
+    },
+    {
+      "title": "LIEBHERR LTM1100-4.2",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "100 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "60.0 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "19.0 m"
+      ]
+    },
+    {
+      "title": "LIEBHERR LTM1300/1",
+      "maxLift": [
+        "Iň ýokary ýük göterijilik ukyby:",
+        "300 t"
+      ],
+      "boomLen": [
+        "Okunyň uzynlygy:",
+        "60.0 m"
+      ],
+      "jibExt": [
+        "Okunyň ujundaky goşmaça okuň uzynlygy:",
+        "42.0 m"
+      ]
+    }
   ],
   "projects": [
     {

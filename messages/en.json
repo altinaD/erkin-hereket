@@ -1,4 +1,4 @@
-{   
+{
     "navHome": "Home",
     "nav": {
         "about": "About us",
@@ -8,12 +8,26 @@
         "contact": "Contact us"
     },
     "footer": {
-        "contactBox": ["Name", "Last name", "Email", "Your message"],
-        "contacts": ["Address", "Phone number", "E-address"],
+        "contactBox": [
+            "Name",
+            "Last name",
+            "Email",
+            "Your message"
+        ],
+        "contacts": [
+            "Address",
+            "Phone number",
+            "E-address"
+        ],
         "address": "G. Kulyýew (2127) “Begenchli” Floor 3",
-        "nav": ["About us", "Services", "Projects", "Contact us"],
+        "nav": [
+            "About us",
+            "Services",
+            "Projects",
+            "Contact us"
+        ],
         "copyright": "2025  Erkin Hereket. All rights reserved.",
-        "submit": "Submit", 
+        "submit": "Submit",
         "loading": "Sending"
     },
     "errorMsg": "Please fill all inputs",
@@ -21,13 +35,18 @@
     "home": {
         "learnMoreBTn": "Learn more",
         "seeAll": "See all",
-        "heroTitle": "Lifting Turkmenistan Forward",
+        "heroTitle": "Erkin Hereket — A fast and reliable solution for you!",
         "homeAboutText": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
         "srollDown": "Scroll down"
     },
     "about": {
         "aboutTitle": "“Erkin Hereket” Economic Society is a company that provides high-quality technical services in the construction and industrial sectors. With over 20 years of experience in various construction works, our company is a leading and accessible service provider in the field of crane rental.",
-        "counterCaptions": ["Cranes", "Projects", "Satisfied clients", "Years in operation"],
+        "counterCaptions": [
+            "Cranes",
+            "Projects",
+            "Satisfied clients",
+            "Years in operation"
+        ],
         "experienceTitle": "Our Experience",
         "experienceDesc": "Using high-capacity cranes, our company has successfully carried out operations in major construction projects. Through long-term collaboration with our clients, we have successfully implemented numerous industrial, construction, and manufacturing projects.",
         "devPeriodTitle": "Development Period",
@@ -61,54 +80,126 @@
             "expandedHeight": 400
         }
     ],
-    "cranes":[
+    "cranes": [
         {
             "title": "XCMG QY25K-1",
-            "maxLift": ["Max lifting capacity:", "25 t"],
-            "boomLen": ["Boom length:", "39.5 m"],
-            "jibExt": ["Jib extension length:", "8.3 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "25 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "39.5 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "8.3 m"
+            ]
         },
         {
             "title": "FAUN RTF-30",
-            "maxLift": ["Max lifting capacity:", "30 t"],
-            "boomLen": ["Boom length:", "28 m"],
-            "jibExt": ["Jib extension length:", "8.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "30 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "28 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "8.0 m"
+            ]
         },
         {
             "title": "KATO KA400E",
-            "maxLift": ["Max lifting capacity:", "40 t"],
-            "boomLen": ["Boom length:", "34.4 m"],
-            "jibExt": ["Jib extension length:", "9.2 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "40 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "34.4 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "9.2 m"
+            ]
         },
         {
             "title": "XCMG QY50KA",
-            "maxLift": ["Max lifting capacity:", "50 t"],
-            "boomLen": ["Boom length:", "42.7 m"],
-            "jibExt": ["Jib extension length:", "15.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "50 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "42.7 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "15.0 m"
+            ]
         },
         {
             "title": "FAUN ATF60-4",
-            "maxLift": ["Max lifting capacity:", "60 t"],
-            "boomLen": ["Boom length:", "40.2 m"],
-            "jibExt": ["Jib extension length:", "16.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "60 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "40.2 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "16.0 m"
+            ]
         },
         {
             "title": "LIEBHERR LTM1070/1",
-            "maxLift": ["Max lifting capacity:", "70 t"],
-            "boomLen": ["Boom length:", "42.0 m"],
-            "jibExt": ["Jib extension length:", "18.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "70 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "42.0 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "18.0 m"
+            ]
         },
         {
             "title": "LIEBHERR LTM1100-4.2",
-            "maxLift": ["Max lifting capacity:", "100 t"],
-            "boomLen": ["Boom length:", "60.0 m"],
-            "jibExt": ["Jib extension length:", "19.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "100 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "60.0 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "19.0 m"
+            ]
         },
         {
             "title": "LIEBHERR LTM1300/1",
-            "maxLift": ["Max lifting capacity:", "300 t"],
-            "boomLen": ["Boom length:", "60 m"],
-            "jibExt": ["Jib extension length:", "42.0 m"]
+            "maxLift": [
+                "Max lifting capacity:",
+                "300 t"
+            ],
+            "boomLen": [
+                "Boom length:",
+                "60 m"
+            ],
+            "jibExt": [
+                "Jib extension length:",
+                "42.0 m"
+            ]
         }
     ],
     "projects": [
