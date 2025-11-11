@@ -17,9 +17,10 @@
     "contacts": [
       "Salgymyz",
       "Telefon",
-      "Email"
+      "Email",
+      "Web-saýt"
     ],
-    "address": "G. Kulyýew (2127) “Begençli” 3-nji gat",
+    "address": "Aşgabat şäheri, Bagtyýarlyk etraby, Türkmenistanyň Gahrymany Atamyrat Nyýazow şaýoly, 174-nji jaý.",
     "nav": [
       "Biz barada",
       "Hyzmatlar",
@@ -35,12 +36,12 @@
   "home": {
     "learnMoreBTn": "Has giňişleýin",
     "seeAll": "Ählisini gör",
-    "heroTitle": "Erkin Hereket - Siziň üçin çalt we ygtybarly çözgüt!",
+    "heroTitle": "Islendik hyzmatdaşlyk teklibi, hyzmat sowallary ýa-da kärende bahalary barada giňişleýin maglumat almak üçin biziň bilen habarlaşyp bilersiňiz.",
     "homeAboutText": "“Erkin Hereket” hojalyk jemgyýeti gurluşyk we senagat pudaklarynda ýokary hilli tehniki hyzmatlary hödürleýän kompaniýadyr. 20 ýyldan gowrak tejribämiz bilen kran kärendesinde öňdebaryjy we elýeterli hyzmatlary hödürleýäris.",
     "srollDown": "Aşak aýlaň"
   },
   "about": {
-    "aboutTitle": "“Erkin hereket” hojalyk jemgyýeti gurluşyk we senagat pudagynda ýokary hilli tehniki hyzmatlary hödürleýän kärhanadyr. Dürli gurluşyk işlerinde 20 ýyldan gowrak tejribä eýe bolan kärhanamyz ýük göteriji awtokranlarynyň kärendesi boýunça öňdebaryjy we elýeterli hyzmatlary ýerine ýetirýär.",
+    "aboutTitle": "“Erkin hereket” hojalyk jemgyýeti gurluşyk we senagat pudagynda ýokary hilli tehniki hyzmatlary hödürleýän kärhanadyr. Dürli gurluşyk işlerinde 20 ýyldan gowrak tejribä eýe bolan kärhanamyz ýük göteriji awtokranlaryny kärendesine bermek boýunça öňdebaryjy we elýeterli hyzmatlary ýerine ýetirýär.",
     "counterCaptions": [
       "Kranlar",
       "Taslamalar",
@@ -48,7 +49,7 @@
       "Iş tejribesi (ýyl)"
     ],
     "experienceTitle": "Tejribämiz",
-    "experienceDesc": "Kärhanamyz ýokary göterijilikli awtokranlarynyň kömegi bilen iri gurluşyk taslamalarynda üstünlikli işleri alyp bardy. Müşderilerimiz bilen köp ýyllaryň dowamynda hyzmatdaşlyk edip, birnäçe senagat, gurluşyk we önümçilik taslamalaryny üstünlikli ýerine ýetirdik.",
+    "experienceDesc": "Kärhanamyz ýokary göterijilikli awtokranlarynyň kömegi bilen iri gurluşyk taslamalarynda üstünlikli işleri alyp bardy. Müşderilerimiz bilen köp ýyllaryň dowamynda hyzmatdaşlyk edip, birnäçe senagat, gurluşyk we önümçilik taslamalaryny şowly ýerine ýetirdik.",
     "devPeriodTitle": "Ösüş döwrümiz",
     "devPeriodDesc": "Biziň ösüş ýolumyz tehnologiýa we innowasion täzelikler arkaly dowam edýär. Täze awtokranlar, enjamlar we ýük göteriji abzallary ulanmak arkaly ösdürilýän hyzmatlar netijesinde  iş ugurlarymyzy pugtalandyrýarys.",
     "missionTitle": "Maksadymyz",
@@ -56,12 +57,12 @@
     "advTitle": "Artykmaçlyklar",
     "advDesc": "<grey>Biziň hyzmatlarymyzyň aýratynlygy</grey> — <red>ýokary hil kepilligi, döwrebap tehnikalar, tejribeli işgärler we müşderiler bilen aç-açan gatnaşyklarymyz.</red> Çalt hyzmat, howpsuzlyk we şahsy çemeleşme biziň esasy ýörelgelerimizdir.",
     "goalsTitle": "Geljekki ösüş ugurlary",
-    "goalsDesc": "<grey>Kärhanamyz öňünde goýan maksatly meýilnamalary bilen täze ugurlarda hem kämilleşmegi nazarda tutýar</grey>. <red>Ösen tehnologiýa esaslanyp, hyzmatyň görnüşlerini</red> köpeltmek we hilini has-da ýokarlandyrmak halkara hyzmatdaşlyklarynda biziň ösüş strategiýamyzyň esasy bölegi bolup durýar."
+    "goalsDesc": "<grey>Kärhanamyz öňünde goýan maksatly meýilnamalary bilen täze ugurlarda hem kämilleşmegi nazarda tutýar.</grey> <red>Ösen tehnologiýa esaslanyp,</red> hyzmatyň görnüşlerini köpeltmek we hilini has-da ýokarlandyrmak halkara hyzmatdaşlyklarynda biziň ösüş strategiýamyzyň esasy bölegi bolup durýar."
   },
   "services": [
     {
       "title": "Awtokranlary operatory bilen birlikde kärendesine bermek",
-      "desc": "Kärhanamyz dürli ýük göterijilikli (25–300 t) awtokranlaryny köp ýyllyk iş tejribeli ussat operatorlar bilen birlikde kärendesine berýär. Bu hyzmatlaryň çäklerinde biz müşderileriň wagtyny we serişdelerini tygşytlamaga ýardam edýäris.",
+      "desc": "Kompaniýamyz dürli ýük göterijilikli (25–300 tonna) awtokranlaryny köp ýyllyk iş tejribeli ussat operatorlar bilen birlikde kärendesine berýär. Bu hyzmatlaryň çäklerinde biz müşderileriň wagtyny we serişdelerini tygşytlamaga ýardam edýäris",
       "expandedHeight": 400
     },
     {
@@ -71,12 +72,12 @@
     },
     {
       "title": "Buýurmalar boýunça ýörite hyzmatlar",
-      "desc": "Her bir taslamanyň özboluşlylygy, çylşyrymlylygy bar. Şonuň üçin biz müşderileriň aýratyn buýurmalaryna laýyklykda meýilleşdirilen, şahsylaşdyrylan tehniki çözgütleri hödürleýäris. Bu biziň taslamany wagtynda ýetişdirmäge edýän goşandymyzyň aýdyň subutnamasydyr.",
+      "desc": "Her bir taslamanyň özboluşlylygy, çylşyrymlylygy bar. Şonuň üçin biz müşderileriň aýratyn buýurmalaryna laýyklykda meýilleşdirilen, şahsylaşdyrylan tehniki çözgütleri hödürleýäris. Bu biziň taslamany wagtynda ýetişdirmegä edýän goşandymyzyň aýdyň subutnamasydyr.",
       "expandedHeight": 400
     },
     {
       "title": "Awtokranlaryň işe giriziliş we ulanylyş aýratynlyklary",
-      "desc": "Kärhanamyz dürli ýük göterijilik kuwwatlyklaryna eýe bolan awtokranlaryň kömegi bilen, gurluşyk we senagat işlerinde ýokary hilli hyzmatlary hödürleýär. Aşakda dürli kysymdaky awtokranlaryň aýratynlyklary we ulanylyş maglumatlary görkezilýär.",
+      "desc": "Kompaniýamyz dürli ýük göterijilik kuwwatlyklaryna eýe bolan awtokranlaryň kömegi bilen, gurluşyk we senagat işlerinde ýokary hilli hyzmatlary hödürleýär. Aşakda dürli kysymdaky awtokranlaryň aýratynlyklary we ulanylyş maglumatlary görkezilýär.",
       "expandedHeight": 400
     }
   ],
@@ -85,131 +86,131 @@
       "title": "XCMG QY25K-1",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "25 t"
+        "25 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "39.5 m"
+        "39,5 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "8.3 m"
+        "8,3 metr"
       ]
     },
     {
       "title": "FAUN RTF-30",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "30 t"
+        "30 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "28 m"
+        "28 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "8.0 m"
+        "8,0 metr"
       ]
     },
     {
       "title": "KATO KA400E",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "40 t"
+        "40 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "34.4 m"
+        "34,4 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "9.2 m"
+        "9,2 metr"
       ]
     },
     {
       "title": "XCMG QY50KA",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "50 t"
+        "50 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "42.7 m"
+        "42,7 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "15.0 m"
+        "15,0 metr"
       ]
     },
     {
       "title": "FAUN ATF60-4",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "60 t"
+        "60 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "40.2 m"
+        "40,2 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "16.0 m"
+        "16,0 metr"
       ]
     },
     {
       "title": "LIEBHERR LTM1070/1",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "70 t"
+        "70 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "42.0 m"
+        "42,0 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "18.0 m"
+        "18,0 metr"
       ]
     },
     {
       "title": "LIEBHERR LTM1100-4.2",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "100 t"
+        "100 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "60.0 m"
+        "60,0 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "19.0 m"
+        "19,0 metr"
       ]
     },
     {
       "title": "LIEBHERR LTM1300/1",
       "maxLift": [
         "Iň ýokary ýük göterijilik ukyby:",
-        "300 t"
+        "300 tonna"
       ],
       "boomLen": [
         "Okunyň uzynlygy:",
-        "60.0 m"
+        "60,0 metr"
       ],
       "jibExt": [
         "Okunyň ujundaky goşmaça okuň uzynlygy:",
-        "42.0 m"
+        "42,0 metr"
       ]
     }
   ],
   "projects": [
     {
-      "title": "Çylşyrymly gurluşyk taslamalary",
+      "title": "Gurluşyk taslamalary",
       "desc": "Türkmenistanyň dürli künjeklerinde amala aşyrylan iri gurluşyk taslamalaryna goşan goşantlarymyz biziň tejribämizi we mümkinçiliklerimizi görkezýär. Awtokranlarymyzyň kömegi bilen desgalaryň gurluşygyna öz wagtynda we ýokary hilli gatnaşdyk."
     },
     {
       "title": "Senagat we önümçilik taslamalary",
-      "desc": "Energetika, önümçilik we beýleki senagat desgalarynda tehnikalarymyzyň giň gerimli ulanylmagy, “Erkin hereket” hojalyk jemgyýetimiziň bu ugurda ýokary derejesini tassyklaýar."
+      "desc": "Energetika, önümçilik we beýleki senagat desgalarynda tehnikalarymyzyň giň gerimli ulanylmagy, “Erkin hereket” hojalyk jemgyýetimiziň bu ugurda ýokary hünär derejesini tassyklaýar."
     },
     {
       "title": "Kärhanalar bilen hyzmatdaşlyklar",

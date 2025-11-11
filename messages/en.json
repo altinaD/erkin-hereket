@@ -17,7 +17,8 @@
         "contacts": [
             "Address",
             "Phone number",
-            "E-address"
+            "E-address",
+            "Web site"
         ],
         "address": "G. Kulyýew (2127) “Begenchli” Floor 3",
         "nav": [
