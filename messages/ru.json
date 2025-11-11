@@ -216,5 +216,11 @@
       "title": "ПАРТНЁРСТВО С ПРЕДПРИЯТИЯМИ",
       "desc": "Мы поддерживаем долгосрочное сотрудничество с крупными частными и государственными предприятиями. В качестве примеров можно привести турецкие компании “Rönesans Endüstri Tesisleri İnşaat Sanayi ve Ticaret A.Ş.” и “Çalık Enerji Sanayi ve Ticaret A.Ş.”, украинскую компанию “Interbudmontazh”, частное предприятие “Rysgally Zähmet” и другие."
     }
-  ]
+  ],
+  "placeholders": {
+    "name": "Иван",
+    "lastName": "Иванов",
+    "mail": "ivan@mail.com",
+    "message": "Ваше сообщение"
+  }
 }

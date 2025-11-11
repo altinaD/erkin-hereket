@@ -63,14 +63,14 @@
     }
 }
 .contact-boxes{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: auto;
 }
 @media (max-width: 1024px){
     .contact-boxes{
         width: 520px;
         margin: 0 auto;
-        padding-top: 40px;
+        /* padding-top: 40px; */
         padding-bottom: 40px;
     }
 }
@@ -91,7 +91,8 @@
 }
 .small-boxes{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
     gap: 15px;
     justify-content: space-between;
     @media (max-width: 590px) {
@@ -99,7 +100,7 @@
     }
 }
 .box{
-    width: 33.333%;
+    width: 100%;
     padding: 14px;
     color: #FFFFFF;
     display: flex;
@@ -140,7 +141,7 @@
 }
 @media (max-width: 1024px) {
     .form{
-        max-width: 520px;
+        width: 520px;
         margin: 0 auto;
     }
 }

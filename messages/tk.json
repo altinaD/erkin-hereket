@@ -216,5 +216,11 @@
       "title": "Kärhanalar bilen hyzmatdaşlyklar",
       "desc": "Biz iri hususy hem-de döwlet kärhanalary bilen uzak möhletleýin hyzmatdaşlyk saklaýarys. Muňa mysal hökmünde ýurdumyzda hereket edýän Türkiýäniň “Rönesans Endüstri Tegisleri Inşaat Sanai we Tijaret A.Ş.” kompaniýasyny, Türkiýäniň “Çalik Enerji Sanai we Tijaret A.Ş.” kompaniýasyny, Ukrainanyň “Interbudmontaž” kompaniýasyny, “Rysgally zähmet” hususy kärhanasyny we beýlekileri görkezmek bolar."
     }
-  ]
+  ],
+  "placeholders": {
+    "name": "Aman",
+    "lastName": "Amanow",
+    "mail": "aman@mail.com",
+    "message": "Siziň habaryňyz"
+  }
 }

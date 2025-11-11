@@ -216,5 +216,11 @@
             "title": "PARTNERSHIP WITH ENTERPRISES",
             "desc": "We maintain long-term partnerships with large private and state-owned enterprises. Examples include Turkey's “Rönesans Endüstri Tesisleri İnşaat Sanayi ve TicaretA.Ş.”, Turkey’s “Çalık Enerji Sanayi ve Ticaret A.Ş.”, Ukraine’s “Interbudmontazh”, and the private enterprise “Rysgally Zähmet”, among others."
         }
-    ]
+    ],
+    "placeholders": {
+        "name": "Jon",
+        "lastName": "Doe",
+        "mail": "example@mail.com",
+        "message": "Your message"
+    }
 }

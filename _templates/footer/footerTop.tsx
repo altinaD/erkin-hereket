@@ -26,9 +26,9 @@ export default function FooterTop() {
                         <span className="ml-[20px]">{t('contact')}</span>
                     </div>
                 )}
+                <h1 className="mt-[40px]  text-[46px] max-3xl:text-[36px]  text-[#FFFFFF] uppercase font-[900] w-[100%] font-[GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
                 <div className={styles['footer-top-content']}>
                     <div>
-                        <h1 className="text-[46px] text-[#FFFFFF] uppercase font-[900] w-[80%] font-[GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
                         <div className={styles["contact-boxes"]}>
                             <div className={styles['address-box']}>
                                 <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[0]}:</span>
