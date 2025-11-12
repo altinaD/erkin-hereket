@@ -37,6 +37,13 @@
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 590px){
+    .footer-top-content{
+        margin-top: 20px;
+    }
+}
+
 .black{
     margin-bottom: 60px;
 }

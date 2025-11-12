@@ -79,7 +79,7 @@ export default function Contact() {
     return (
         <div className="w-[100%]" >
             <div className="space">
-                <h1 className="mt-[40px] text-[36px] max-2xl:text-[26px] text-[#252525] uppercase font-[900] w-[100%] font-[GeistVariableVF] max-xs:text-[22px]">{footer("footerTitle")}</h1>
+                <h1 className="mt-[40px] max-xs:mt-[20px] text-[36px] max-2xl:text-[26px] text-[#252525] uppercase font-[900] w-[100%] font-[GeistVariableVF] max-xs:text-[22px]">{footer("footerTitle")}</h1>
                 <div className={`${styles['black']} ${styles['footer-top-content']}`}>
                     <div>
 
