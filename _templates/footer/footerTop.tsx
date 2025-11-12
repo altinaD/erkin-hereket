@@ -11,7 +11,6 @@ export default function FooterTop() {
     const isHomePage = pathname.endsWith('/home') || pathname === '/home' || pathname.endsWith('/') || pathname === '/'
 
     const t = useTranslations('nav')
-    const home = useTranslations("home")
     const footer = useTranslations("footer")
     const contact: string[] = footer.raw("contactBox") as string[];
     const contacts: string[] = footer.raw("contacts") as string[]
@@ -26,7 +25,7 @@ export default function FooterTop() {
                         <span className="ml-[20px]">{t('contact')}</span>
                     </div>
                 )}
-                <h1 className="mt-[40px]  text-[46px] max-3xl:text-[36px]  text-[#FFFFFF] uppercase font-[900] w-[100%] font-[GeistVariableVF] max-xs:text-[26px]">{home("heroTitle")}</h1>
+                <h1 className="mt-[40px]  text-[46px] max-3xl:text-[36px]  text-[#FFFFFF] uppercase font-[900] w-[100%] font-[GeistVariableVF] max-xs:text-[26px]">{footer("footerTitle")}</h1>
                 <div className={styles['footer-top-content']}>
                     <div>
                         <div className={styles["contact-boxes"]}>
@@ -37,15 +36,15 @@ export default function FooterTop() {
                             <div className={styles['small-boxes']}>
                                 <div className={styles['box']}>
                                     <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[1]}:</span>
-                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-scroll whitespace-nowrap" >+993 64 64 66 79</span>
+                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-clip whitespace-nowrap" >+993 64 64 66 79</span>
                                 </div>
                                 <div className={styles['box']}>
                                     <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[2]}:</span>
-                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-scroll whitespace-nowrap">erkinhereket@gmail.com</span>
+                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-clip whitespace-nowrap">erkinhereket@gmail.com</span>
                                 </div>
                                 <div className={styles['box']}>
                                     <span className="font-[800] text-[15px] font-[GeistVariableVF]">{contacts[3]}:</span>
-                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-scroll whitespace-nowrap">www.erkinhereket.com.tm</span>
+                                    <span className="font-[400] text-[14px] font-[GeistVariableVF] overflow-clip whitespace-nowrap">www.erkinhereket.com.tm</span>
                                 </div>
                             </div>
                         </div>
